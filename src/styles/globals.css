@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap");
 
 * {
   margin: 0;
@@ -22,4 +23,22 @@ body {
     #0c2796 63%,
     rgba(12, 39, 150, 0) 100%
   );
+
+  --gradient-light_blue: linear-gradient(
+    180deg,
+    rgba(62, 97, 251, 0.4) 56.5%,
+    rgba(127, 149, 244, 0) 100%
+  );
+}
+@layer utilities {
+  .btn_golden {
+    @apply bg-[#F4944D] px-8 py-4 transition-all hover:bg-[#d16416];
+  }
+  .btn_dark_blue_outline {
+    @apply border-white bg-[#0C2796] px-8 py-5 text-[#0C2796] hover:bg-[#F4944D];
+  }
+
+  .btn_dark_blue {
+    @apply bg-[#0C2796] px-8 py-5 text-white hover:bg-[#F4944D];
+  }
 }

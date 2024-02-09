@@ -19,7 +19,7 @@ export default function Page({}: Props) {
       <Head>
         <title>Windsketch</title>
       </Head>
-      <section className="flex flex-col w-full min-h-screen items-center">
+      <section className="flex flex-col min-w-full min-h-screen items-center">
         <Nav />
         <Hero />
         <Feature />

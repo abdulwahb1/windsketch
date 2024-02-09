@@ -6,14 +6,14 @@ import {
   NavbarContent,
   NavbarItem,
   Link,
-  Button,
 } from "@nextui-org/react";
 
 import { NAV_LINKS } from "@/constants";
+import DemoButton from "../Reusable/DemoButton";
 
 const Nav = () => {
   return (
-    <Navbar position="static" className="">
+    <Navbar position="static" className="mt-3">
       <NavbarBrand>
         <svg
           width="263"
@@ -21,6 +21,7 @@ const Nav = () => {
           viewBox="0 0 263 41"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
+          className="ml-[-170px]"
         >
           <g clip-path="url(#clip0_874_1926)">
             <path
@@ -286,7 +287,7 @@ const Nav = () => {
               href={link.href}
               key={link.id}
               className={
-                "text-[#0C2796] font-geo font-semibold text-[16px] ml-[30px] capitalize mt-3"
+                "text-[#0C2796] font-geo font-semibold text-[18px] ml-[61px] capitalize hover:text-[#F4944D] transition-all duration-300 ease-in-out"
               }
             >
               {link.text}
@@ -295,57 +296,15 @@ const Nav = () => {
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
-        <Button
-          as={Link}
-          href="#"
-          variant="flat"
-          className="bg-[#0C2796] text-white w-[190px] h-[50px]"
-          startContent={
-            <svg
-              width="40"
-              height="40"
-              viewBox="0 0 40 40"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              className=" relative"
-            >
-              <g clip-path="url(#clip0_903_22)">
-                <rect
-                  x="2"
-                  y="2"
-                  width="36"
-                  height="36"
-                  rx="8"
-                  stroke="white"
-                  stroke-width="4"
-                />
-                <path
-                  d="M20 10L31 19.925L20 30"
-                  stroke="white"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M30 20L10 20"
-                  stroke="white"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </g>
-              <defs>
-                <clipPath id="clip0_903_22">
-                  <rect width="40" height="40" fill="white" />
-                </clipPath>
-              </defs>
-            </svg>
-          }
-        >
-          <label className="text-[18px] font-geo font-light ml-[10px]">
-            Book A Demo
-          </label>
-        </Button>
+        <div className=" w-[262px] h-[62px] mr-[-160px] ">
+          <DemoButton
+            type="button"
+            title="Book A Demo"
+            icon="/icons/arrow_white.svg"
+            variant="btn_dark_blue"
+            color="white"
+          />
+        </div>
       </NavbarContent>
     </Navbar>
   );

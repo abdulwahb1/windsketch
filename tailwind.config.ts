@@ -13,7 +13,14 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        geo: ["Geologica", "sans-serif"], // Replace 'Roboto' with your font name
+        geo: ["Geologica", "sans-serif"],
+        geobold: ["Geologica-Bold", "sans-serif"],
+      },
+      letterSpacing: {
+        widest: "1.8px",
+      },
+      boxShadow: {
+        shadow_shadow: "0px 4px 20px 0px rgba(0, 0, 0, 0.25)",
       },
     },
   },
