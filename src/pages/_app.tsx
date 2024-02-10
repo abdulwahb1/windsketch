@@ -5,7 +5,7 @@ import { NextUIProvider } from "@nextui-org/react";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <NextUIProvider>
-      <main className="min-w-full flex flex-col m-auto">
+      <main className="flex flex-col w-full max-w-[1920px] m-auto">
         <Component {...pageProps} />
       </main>
     </NextUIProvider>

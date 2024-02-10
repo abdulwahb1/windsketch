@@ -54,143 +54,148 @@ export const GRID_LIST: {
 }[] = [
   {
     icon: "/images/g1.png",
-    w_1: 60,
-    h_1: 60,
+    w_1: 85,
+    h_1: 148,
     title: (
       <p className="text-[12px] mt-5 h-[25px] text-[#0C2796] font-geo font-bold text-center">
-        Your title here <br /> ashdlakshd
+        Left or Right <br />
+        HRT3LSB4x2 (view)
       </p>
     ),
     id: 1,
   },
   {
     icon: "/images/g2.png",
-    w_1: 100,
-    h_1: 100,
+    w_1: 134,
+    h_1: 146,
     title: (
       <p className="text-[12px] mt-5 h-[25px] text-[#0C2796] font-geo font-bold text-center">
-        Your title here <br /> ashdlakshd
+        RT2x1-2x1 (view)
       </p>
     ),
     id: 2,
   },
   {
     icon: "/images/g3.png",
-    w_1: 60,
-    h_1: 60,
+    w_1: 85,
+    h_1: 166,
     title: (
       <p className="text-[12px] mt-5 h-[25px] text-[#0C2796] font-geo font-bold text-center">
-        Your title here <br /> ashdlakshd
+        AT3L3x2-3x2 (view)
       </p>
     ),
     id: 3,
   },
   {
     icon: "/images/g4.png",
-    w_1: 100,
-    h_1: 100,
+    w_1: 134,
+    h_1: 146,
     title: (
       <p className="text-[12px] mt-5 h-[25px] text-[#0C2796] font-geo font-bold text-center">
-        Your title here <br /> ashdlakshd
+        RT5LMB3x1-3x2 (view)
       </p>
     ),
     id: 4,
   },
   {
     icon: "/images/g5.png",
-    w_1: 100,
-    h_1: 100,
+    w_1: 134,
+    h_1: 147,
     title: (
       <p className="text-[12px] mt-5 h-[25px] text-[#0C2796] font-geo font-bold text-center">
-        Your title here <br /> ashdlakshd
+        RT5LSB4x2 (equal)
       </p>
     ),
     id: 5,
   },
   {
     icon: "/images/g6.png",
-    w_1: 100,
-    h_1: 100,
+    w_1: 135,
+    h_1: 150,
     title: (
       <p className="text-[12px] mt-5 h-[25px] text-[#0C2796] font-geo font-bold text-center">
-        Your title here <br /> ashdlakshd
+        RT8LSBT4x2 (equal)
       </p>
     ),
     id: 6,
   },
   {
     icon: "/images/g7.png",
-    w_1: 100,
-    h_1: 100,
+    w_1: 168,
+    h_1: 130,
     title: (
       <p className="text-[12px] mt-5 h-[25px] text-[#0C2796] font-geo font-bold text-center">
-        Your title here <br /> ashdlakshd
+        Left or Right <br />
+        HRT2x1-2x1 (equal)
       </p>
     ),
     id: 7,
   },
   {
     icon: "/images/g8.png",
-    w_1: 100,
-    h_1: 100,
+    w_1: 132,
+    h_1: 146,
     title: (
       <p className="text-[12px] mt-5 h-[25px] text-[#0C2796] font-geo font-bold text-center">
-        Your title here <br /> ashdlakshd
+        AT3L3x2-3x2 (view)
       </p>
     ),
     id: 8,
   },
   {
     icon: "/images/g9.png",
-    w_1: 100,
-    h_1: 100,
+    w_1: 131,
+    h_1: 152,
     title: (
       <p className="text-[12px] mt-5 h-[25px] text-[#0C2796] font-geo font-bold text-center">
-        Your title here <br /> ashdlakshd
+        Left or Right <br />
+        HT4x3-4x2 (view)
       </p>
     ),
     id: 9,
   },
   {
     icon: "/images/g10.png",
-    w_1: 100,
-    h_1: 100,
+    w_1: 181,
+    h_1: 134,
     title: (
       <p className="text-[12px] mt-5 h-[25px] text-[#0C2796] font-geo font-bold text-center">
-        Your title here <br /> ashdlakshd
+        Left or Right <br />
+        HRT2x1-2x1 (equal)
       </p>
     ),
     id: 10,
   },
   {
     icon: "/images/g11.png",
-    w_1: 100,
-    h_1: 100,
+    w_1: 201,
+    h_1: 135,
     title: (
       <p className="text-[12px] mt-5 h-[25px] text-[#0C2796] font-geo font-bold text-center">
-        Your title here <br /> ashdlakshd
+        Left or Right <br />
+        HRT3LMB4x1-4x2 (view)
       </p>
     ),
     id: 11,
   },
   {
     icon: "/images/g12.png",
-    w_1: 100,
-    h_1: 100,
+    w_1: 87,
+    h_1: 153,
     title: (
       <p className="text-[12px] mt-5 h-[25px] text-[#0C2796] font-geo font-bold text-center">
-        Your title here <br /> ashdlakshd
+        AT2x1-2x1 (view)
       </p>
     ),
     id: 12,
   },
   {
     icon: "/images/g13.png",
-    w_1: 100,
-    h_1: 100,
+    w_1: 123,
+    h_1: 153,
     title: (
       <p className="text-[12px] mt-5 h-[25px] text-[#0C2796] font-geo font-bold text-center">
-        Your title here <br /> ashdlakshd
+        RT4x2-4x2 (equal)
       </p>
     ),
     id: 13,
@@ -198,10 +203,11 @@ export const GRID_LIST: {
   {
     icon: "/images/g15.png",
     w_1: 100,
-    h_1: 100,
+    h_1: 154,
     title: (
       <p className="text-[12px] mt-5 h-[25px] text-[#0C2796] font-geo font-bold text-center">
-        Your title here <br /> ashdlakshd
+        Left or Right <br />
+        HRT9LBR-9LBR (view)
       </p>
     ),
     id: 14,

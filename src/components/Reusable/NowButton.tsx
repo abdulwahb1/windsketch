@@ -11,7 +11,6 @@ type ButtonProps = {
 const NowButton = ({ type, title, variant, w_4, h_4 }: ButtonProps) => {
   const widthClass = `w-[${w_4}px]`;
   const heightClass = `h-[${h_4}px]`;
-  console.log(widthClass);
   return (
     <button
       className={`flex items-center justify-center gap-3 rounded-xl ${variant} w-[263px] h-[63px] border`}

@@ -7,9 +7,9 @@ import DemoButton from "../Reusable/DemoButton";
 
 const Showcase = () => {
   return (
-    <section className="flex flex-col justify-center items-center">
-      <div className="relative w-screen justify-center items-center flex mt-[200px]">
-        <div className="absolute h-[300px] w-[950px] flex justify-between items-center border border-solid border-[#F5944D] border-r-[10px] bg-[#F4944D] shadow-sm_box  shadow-black">
+    <section className="flex flex-col justify-center items-center mt-[150px]">
+      <div className="relative w-screen justify-center items-center flex ">
+        <div className="absolute h-[300px] w-[950px] flex justify-between items-center border border-solid border-[#F5944D] border-r-[10px] bg-[#F4944D] shadow-sm_box  shadow-black mt-[200px]">
           <div className="h-[70px] w-[60px] ml-5 mb-[190px]">
             <svg
               width="60"

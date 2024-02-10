@@ -10,7 +10,7 @@ const Hero = () => {
       style={{ background: "var(--gradient-bg)" }}
     >
       <div className="w-screen h-[1442px] flex justify-center items-center flex-col">
-        <div className="flex flex-col justify-center items-center w-[1440px]">
+        <div className="flex flex-col justify-center items-center w-full">
           <div className="flex flex-col justify-center items-center ">
             <h1 className="text-white font-geobold font-bold text-[70px] capitalize  tracking-widest text-center w-[900px] leading-[70px]">
               Simplifying Blueprints <br />{" "}

@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section className="flex flex-col justify-center items-center z-0">
       <div
-        className="w-screen absolute mt-[100px] h-[1249px] flex flex-col justify-start items-center z-0"
+        className="w-screen absolute mb-[150px] h-[1000px] flex flex-col justify-start items-center z-0"
         style={{ background: "var(--gradient_contact)" }}
       ></div>
       <div className="flex flex-col justify-center items-center relative mt-[100px] z-10">

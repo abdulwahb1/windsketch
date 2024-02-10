@@ -34,11 +34,11 @@ const CTA = () => {
         </svg>
         <div className="absolute justify-center items-center flex flex-col mt-[150px] z-20">
           <div className="flex flex-row justify-evenly w-full ">
-            <p className="text-[70px] font-geo font-bold text-custom-blue tracking-tight mr-[500px]">
-              EASY PLAN DRAWING <br /> AND SHARING
+            <p className="text-[70px] font-geo font-bold text-custom-blue tracking-tight mr-[750px]">
+              SCHEDULING <br /> MADE SIMPLE
             </p>
             <Image
-              src="/icons/icon3.svg"
+              src="/icons/icon5.svg"
               alt="icon"
               width={122}
               height={108}
