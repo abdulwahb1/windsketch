@@ -1,11 +1,12 @@
 import React from "react";
 import FeatureCard from "../Reusable/FeatureCard";
 import { FEATURE_LIST } from "@/constants";
+import Image from "next/image";
 
 const Feature = () => {
   return (
-    <section className=" flex flex-col z-10">
-      <div className="flex flex-row justify-center items-center ml-3">
+    <section className=" flex flex-col z-0 relative w-full items-center justify-center">
+      <div className="flex flex-row justify-start items-center ml-3">
         {FEATURE_LIST.map((feature) => (
           <FeatureCard
             key={feature.id}
@@ -13,7 +14,8 @@ const Feature = () => {
             title={feature.title}
             info={feature.info}
             cta={feature.cta}
-            alt1={feature.alt1}
+            w_1={feature.w_1}
+            h_1={feature.h_1}
           />
         ))}
       </div>

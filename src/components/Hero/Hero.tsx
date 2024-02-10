@@ -5,13 +5,13 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col justify-center items-center mt-3 z-10">
-      <div
-        className="w-screen h-[1442px] flex relative justify-center items-center z-10 "
-        style={{ background: "var(--gradient-bg)" }}
-      >
+    <section
+      className="flex flex-col justify-center items-center pt-3 z-50 relative "
+      style={{ background: "var(--gradient-bg)" }}
+    >
+      <div className="w-screen h-[1442px] flex justify-center items-center flex-col">
         <div className="flex flex-col justify-center items-center w-[1440px]">
-          <div className="flex flex-col justify-center items-center mb-[200px]">
+          <div className="flex flex-col justify-center items-center ">
             <h1 className="text-white font-geobold font-bold text-[70px] capitalize  tracking-widest text-center w-[900px] leading-[70px]">
               Simplifying Blueprints <br />{" "}
               <span className="text-[50px] font-light font-geo ">
@@ -28,6 +28,8 @@ const Hero = () => {
                 type="button"
                 title="Start Now"
                 variant="btn_dark_blue_outline"
+                w_4={263}
+                h_4={62}
               />
               <DemoButton
                 type="button"
@@ -35,6 +37,8 @@ const Hero = () => {
                 icon="/icons/arrow.svg"
                 variant="btn_golden"
                 color="text-[#0C2796]"
+                w_4={263}
+                h_4={62}
               />
             </div>
             <Image
@@ -44,6 +48,11 @@ const Hero = () => {
               alt="hero image"
               className="mt-[80px]"
             />
+          </div>
+          <div className="mt-[40px]">
+            <h2 className="text-[#0C2796] text-[80px] font-bold capitalize font-geo">
+              What makes us the best
+            </h2>
           </div>
         </div>
       </div>

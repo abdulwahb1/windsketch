@@ -13,7 +13,7 @@ import DemoButton from "../Reusable/DemoButton";
 
 const Nav = () => {
   return (
-    <Navbar position="static" className="mt-3">
+    <Navbar position="static" className="my-3">
       <NavbarBrand>
         <svg
           width="263"
@@ -23,7 +23,7 @@ const Nav = () => {
           xmlns="http://www.w3.org/2000/svg"
           className="ml-[-170px]"
         >
-          <g clip-path="url(#clip0_874_1926)">
+          <g clipPath="url(#clip0_874_1926)">
             <path
               d="M32.5472 24.3783L34.3862 26.6945L23.6719 40.1955C23.4726 40.446 23.2198 40.6482 22.9321 40.7872C22.6445 40.9263 22.3294 40.9986 22.0102 40.9987C21.9493 40.9987 21.8875 40.9958 21.8245 40.9904C21.4752 40.9596 21.139 40.8425 20.8458 40.6493C20.5527 40.4562 20.3117 40.1931 20.1445 39.8836L0.257594 3.15204C0.0816325 2.8271 -0.0071705 2.46179 -9.63792e-05 2.09197C0.00697774 1.72215 0.109686 1.36053 0.297944 1.04262C0.486203 0.724713 0.75354 0.461439 1.07371 0.278648C1.39388 0.095856 1.75587 -0.000168916 2.12416 2.23056e-07H2.1396L25.624 0.00586916C26.0364 0.00899765 26.4389 0.132635 26.7826 0.361691C27.1262 0.590747 27.396 0.915314 27.559 1.29578L34.3862 17.2375L32.2575 22.2047C32.1056 22.5595 32.0523 22.949 32.1033 23.3317C32.1543 23.7145 32.3077 24.0762 32.5472 24.3783Z"
               fill="#EE3224"
@@ -142,12 +142,12 @@ const Nav = () => {
               y2="30.153"
               gradientUnits="userSpaceOnUse"
             >
-              <stop offset="0.175" stop-color="#F4944D" />
-              <stop offset="0.313" stop-color="#F4944D" stop-opacity="0.756" />
-              <stop offset="0.507" stop-color="#F4944D" stop-opacity="0.435" />
-              <stop offset="0.668" stop-color="#F4944D" stop-opacity="0.2" />
-              <stop offset="0.786" stop-color="#F4944D" stop-opacity="0.055" />
-              <stop offset="0.849" stop-color="#F4944D" stop-opacity="0" />
+              <stop offset="0.175" stopColor="#F4944D" />
+              <stop offset="0.313" stopColor="#F4944D" stopOpacity="0.756" />
+              <stop offset="0.507" stopColor="#F4944D" stopOpacity="0.435" />
+              <stop offset="0.668" stopColor="#F4944D" stopOpacity="0.2" />
+              <stop offset="0.786" stopColor="#F4944D" stopOpacity="0.055" />
+              <stop offset="0.849" stopColor="#F4944D" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_874_1926"
@@ -157,10 +157,10 @@ const Nav = () => {
               y2="20.1205"
               gradientUnits="userSpaceOnUse"
             >
-              <stop offset="0.253" stop-color="#001D66" stop-opacity="0" />
-              <stop offset="0.403" stop-color="#001D66" stop-opacity="0.146" />
-              <stop offset="0.692" stop-color="#001D66" stop-opacity="0.529" />
-              <stop offset="1" stop-color="#001D66" />
+              <stop offset="0.253" stopColor="#001D66" stopOpacity="0" />
+              <stop offset="0.403" stopColor="#001D66" stopOpacity="0.146" />
+              <stop offset="0.692" stopColor="#001D66" stopOpacity="0.529" />
+              <stop offset="1" stopColor="#001D66" />
             </linearGradient>
             <linearGradient
               id="paint2_linear_874_1926"
@@ -170,12 +170,12 @@ const Nav = () => {
               y2="21.1221"
               gradientUnits="userSpaceOnUse"
             >
-              <stop offset="0.068" stop-color="white" stop-opacity="0" />
-              <stop offset="0.148" stop-color="white" stop-opacity="0.059" />
-              <stop offset="0.302" stop-color="white" stop-opacity="0.212" />
-              <stop offset="0.513" stop-color="white" stop-opacity="0.461" />
-              <stop offset="0.773" stop-color="white" stop-opacity="0.8" />
-              <stop offset="0.917" stop-color="white" />
+              <stop offset="0.068" stopColor="white" stopOpacity="0" />
+              <stop offset="0.148" stopColor="white" stopOpacity="0.059" />
+              <stop offset="0.302" stopColor="white" stopOpacity="0.212" />
+              <stop offset="0.513" stopColor="white" stopOpacity="0.461" />
+              <stop offset="0.773" stopColor="white" stopOpacity="0.8" />
+              <stop offset="0.917" stopColor="white" />
             </linearGradient>
             <linearGradient
               id="paint3_linear_874_1926"
@@ -185,12 +185,12 @@ const Nav = () => {
               y2="34.3019"
               gradientUnits="userSpaceOnUse"
             >
-              <stop offset="0.068" stop-color="white" stop-opacity="0" />
-              <stop offset="0.148" stop-color="white" stop-opacity="0.059" />
-              <stop offset="0.302" stop-color="white" stop-opacity="0.212" />
-              <stop offset="0.513" stop-color="white" stop-opacity="0.461" />
-              <stop offset="0.773" stop-color="white" stop-opacity="0.8" />
-              <stop offset="0.917" stop-color="white" />
+              <stop offset="0.068" stopColor="white" stopOpacity="0" />
+              <stop offset="0.148" stopColor="white" stopOpacity="0.059" />
+              <stop offset="0.302" stopColor="white" stopOpacity="0.212" />
+              <stop offset="0.513" stopColor="white" stopOpacity="0.461" />
+              <stop offset="0.773" stopColor="white" stopOpacity="0.8" />
+              <stop offset="0.917" stopColor="white" />
             </linearGradient>
             <linearGradient
               id="paint4_linear_874_1926"
@@ -200,12 +200,12 @@ const Nav = () => {
               y2="26.0391"
               gradientUnits="userSpaceOnUse"
             >
-              <stop offset="0.068" stop-color="white" stop-opacity="0" />
-              <stop offset="0.148" stop-color="white" stop-opacity="0.059" />
-              <stop offset="0.302" stop-color="white" stop-opacity="0.212" />
-              <stop offset="0.513" stop-color="white" stop-opacity="0.461" />
-              <stop offset="0.773" stop-color="white" stop-opacity="0.8" />
-              <stop offset="0.917" stop-color="white" />
+              <stop offset="0.068" stopColor="white" stopOpacity="0" />
+              <stop offset="0.148" stopColor="white" stopOpacity="0.059" />
+              <stop offset="0.302" stopColor="white" stopOpacity="0.212" />
+              <stop offset="0.513" stopColor="white" stopOpacity="0.461" />
+              <stop offset="0.773" stopColor="white" stopOpacity="0.8" />
+              <stop offset="0.917" stopColor="white" />
             </linearGradient>
             <linearGradient
               id="paint5_linear_874_1926"
@@ -215,12 +215,12 @@ const Nav = () => {
               y2="13.8458"
               gradientUnits="userSpaceOnUse"
             >
-              <stop offset="0.068" stop-color="white" stop-opacity="0" />
-              <stop offset="0.148" stop-color="white" stop-opacity="0.059" />
-              <stop offset="0.302" stop-color="white" stop-opacity="0.212" />
-              <stop offset="0.513" stop-color="white" stop-opacity="0.461" />
-              <stop offset="0.773" stop-color="white" stop-opacity="0.8" />
-              <stop offset="0.917" stop-color="white" />
+              <stop offset="0.068" stopColor="white" stopOpacity="0" />
+              <stop offset="0.148" stopColor="white" stopOpacity="0.059" />
+              <stop offset="0.302" stopColor="white" stopOpacity="0.212" />
+              <stop offset="0.513" stopColor="white" stopOpacity="0.461" />
+              <stop offset="0.773" stopColor="white" stopOpacity="0.8" />
+              <stop offset="0.917" stopColor="white" />
             </linearGradient>
             <linearGradient
               id="paint6_linear_874_1926"
@@ -230,10 +230,10 @@ const Nav = () => {
               y2="12.9603"
               gradientUnits="userSpaceOnUse"
             >
-              <stop offset="0.201" stop-color="#001D66" stop-opacity="0" />
-              <stop offset="0.362" stop-color="#001D66" stop-opacity="0.146" />
-              <stop offset="0.671" stop-color="#001D66" stop-opacity="0.529" />
-              <stop offset="1" stop-color="#001D66" />
+              <stop offset="0.201" stopColor="#001D66" stopOpacity="0" />
+              <stop offset="0.362" stopColor="#001D66" stopOpacity="0.146" />
+              <stop offset="0.671" stopColor="#001D66" stopOpacity="0.529" />
+              <stop offset="1" stopColor="#001D66" />
             </linearGradient>
             <linearGradient
               id="paint7_linear_874_1926"
@@ -243,10 +243,10 @@ const Nav = () => {
               y2="17.0437"
               gradientUnits="userSpaceOnUse"
             >
-              <stop offset="0.201" stop-color="#001D66" stop-opacity="0" />
-              <stop offset="0.362" stop-color="#001D66" stop-opacity="0.146" />
-              <stop offset="0.671" stop-color="#001D66" stop-opacity="0.529" />
-              <stop offset="1" stop-color="#001D66" />
+              <stop offset="0.201" stopColor="#001D66" stopOpacity="0" />
+              <stop offset="0.362" stopColor="#001D66" stopOpacity="0.146" />
+              <stop offset="0.671" stopColor="#001D66" stopOpacity="0.529" />
+              <stop offset="1" stopColor="#001D66" />
             </linearGradient>
             <linearGradient
               id="paint8_linear_874_1926"
@@ -256,10 +256,10 @@ const Nav = () => {
               y2="0.906805"
               gradientUnits="userSpaceOnUse"
             >
-              <stop offset="0.201" stop-color="#001D66" stop-opacity="0" />
-              <stop offset="0.362" stop-color="#001D66" stop-opacity="0.146" />
-              <stop offset="0.671" stop-color="#001D66" stop-opacity="0.529" />
-              <stop offset="1" stop-color="#001D66" />
+              <stop offset="0.201" stopColor="#001D66" stopOpacity="0" />
+              <stop offset="0.362" stopColor="#001D66" stopOpacity="0.146" />
+              <stop offset="0.671" stopColor="#001D66" stopOpacity="0.529" />
+              <stop offset="1" stopColor="#001D66" />
             </linearGradient>
             <linearGradient
               id="paint9_linear_874_1926"
@@ -269,10 +269,10 @@ const Nav = () => {
               y2="1.25234"
               gradientUnits="userSpaceOnUse"
             >
-              <stop offset="0.201" stop-color="#001D66" stop-opacity="0" />
-              <stop offset="0.362" stop-color="#001D66" stop-opacity="0.146" />
-              <stop offset="0.671" stop-color="#001D66" stop-opacity="0.529" />
-              <stop offset="1" stop-color="#001D66" />
+              <stop offset="0.201" stopColor="#001D66" stopOpacity="0" />
+              <stop offset="0.362" stopColor="#001D66" stopOpacity="0.146" />
+              <stop offset="0.671" stopColor="#001D66" stopOpacity="0.529" />
+              <stop offset="1" stopColor="#001D66" />
             </linearGradient>
             <clipPath id="clip0_874_1926">
               <rect width="263" height="41" fill="white" />
@@ -303,6 +303,8 @@ const Nav = () => {
             icon="/icons/arrow_white.svg"
             variant="btn_dark_blue"
             color="white"
+            w_4={263}
+            h_4={62}
           />
         </div>
       </NavbarContent>

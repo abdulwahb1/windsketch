@@ -6,5 +6,6 @@ import Drawing from "./Drawing/Drawing";
 import Feature from "./Feature/Feature";
 import Footer from "./Footer/Footer";
 import Hero from "./Hero/Hero";
+import Showcase from "./Showcase/Showcase";
 
-export { Nav, Book, CTA, Contact, Drawing, Feature, Footer, Hero };
+export { Nav, Book, CTA, Contact, Drawing, Feature, Footer, Hero, Showcase };

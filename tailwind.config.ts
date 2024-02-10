@@ -14,13 +14,16 @@ const config: Config = {
     extend: {
       fontFamily: {
         geo: ["Geologica", "sans-serif"],
-        geobold: ["Geologica-Bold", "sans-serif"],
       },
       letterSpacing: {
         widest: "1.8px",
       },
       boxShadow: {
         shadow_shadow: "0px 4px 20px 0px rgba(0, 0, 0, 0.25)",
+        sm_box: "0px 0px 12px 0px rgba(0, 0, 0, 0.20)",
+      },
+      colors: {
+        "custom-blue": "#0C2796",
       },
     },
   },

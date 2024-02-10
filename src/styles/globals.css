@@ -1,9 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap");
 
 * {
   margin: 0;
@@ -15,13 +14,15 @@
 body {
   min-height: 100dvh;
   overflow-y: auto;
+  overflow-x: hidden;
+  font-family: "Geologica", sans-serif;
 }
 
 :root {
   --gradient-bg: linear-gradient(
     180deg,
     #0c2796 63%,
-    rgba(12, 39, 150, 0) 100%
+    rgba(12, 39, 150, 0.1) 95%
   );
 
   --gradient-light_blue: linear-gradient(
@@ -29,16 +30,59 @@ body {
     rgba(62, 97, 251, 0.4) 56.5%,
     rgba(127, 149, 244, 0) 100%
   );
+
+  --gradient-orange: linear-gradient(
+    180deg,
+    rgba(244, 148, 77, 0) 14.06%,
+    #f4944d 80.23%
+  );
+
+  --gradient-blue: linear-gradient(
+    343deg,
+    #0c2796 -130.87%,
+    rgba(12, 39, 150, 0) 50.94%
+  );
+
+  --gradient-slate: linear-gradient(
+    329deg,
+    #7486cc -2.02%,
+    rgba(204, 213, 251, 0) 93.05%
+  );
+
+  --gradient-dark_orange: linear-gradient(
+    180deg,
+    rgba(244, 148, 77, 0) 14.06%,
+    #f4944d 80.23%
+  );
+
+  --gradient_contact: linear-gradient(
+    180deg,
+    rgba(62, 97, 251, 0.4) -16.77%,
+    rgba(127, 149, 244, 0) 100%
+  );
+
+  --gradient_contact_div: linear-gradient(rgba(127, 149, 244, 0.4));
 }
 @layer utilities {
   .btn_golden {
     @apply bg-[#F4944D] px-8 py-4 transition-all hover:bg-[#d16416];
   }
   .btn_dark_blue_outline {
-    @apply border-white bg-[#0C2796] px-8 py-5 text-[#0C2796] hover:bg-[#F4944D];
+    @apply border-white bg-[#0C2796] px-8 py-5 text-white hover:bg-[#F4944D] border;
   }
 
   .btn_dark_blue {
     @apply bg-[#0C2796] px-8 py-5 text-white hover:bg-[#F4944D];
+  }
+  .btn_transparent {
+    @apply px-8 py-5 text-custom-blue hover:bg-[#F4944D] border-custom-blue border-3;
+  }
+
+  .btn_transparent_white_text {
+    @apply px-8 py-5 text-white hover:bg-[#F4944D] border-custom-blue border-3;
+  }
+
+  .btn_transparent_outline {
+    @apply px-8 py-5 text-white hover:bg-[#F4944D] border-white border-3;
   }
 }

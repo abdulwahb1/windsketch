@@ -6,21 +6,35 @@ type ButtonProps = {
   icon: string;
   variant: string;
   color: string;
+  w_4: number;
+  h_4: number;
 };
 
-const NowButton = ({ type, title, icon, variant, color }: ButtonProps) => {
+const NowButton = ({
+  type,
+  title,
+  icon,
+  variant,
+  color,
+  w_4,
+  h_4,
+}: ButtonProps) => {
+  const widthClass = `w-[${w_4}px]`;
+  const heightClass = `h-[${h_4}px]`;
   return (
-    <button
-      className={`flex items-center justify-center gap-3 rounded-xl w-[263px] h-[62px] ${variant}`}
-      type={type}
-    >
-      {icon !== "" && <Image src={icon} alt={title} width={40} height={40} />}
-      <label
-        className={`whitespace-nowrap cursor-pointer text-[25px] capitalize font-semibold font-geo ${color}`}
+    <div className="inline-block">
+      <button
+        className={`flex items-center justify-center gap-3 rounded-xl ${variant} w-[263px] h-[63px] `}
+        type={type}
       >
-        {title}
-      </label>
-    </button>
+        {icon !== "" && <Image src={icon} alt={title} width={40} height={40} />}
+        <label
+          className={`whitespace-nowrap cursor-pointer text-[25px] capitalize font-semibold font-geo ${color}`}
+        >
+          {title}
+        </label>
+      </button>
+    </div>
   );
 };
 
