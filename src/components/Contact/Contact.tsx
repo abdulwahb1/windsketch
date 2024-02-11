@@ -2,16 +2,16 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="flex flex-col justify-center items-center z-0 w-full mb-16">
+    <section className="flex flex-col justify-center items-center z-0 w-full mb-16 mt-10">
       <div className="flex flex-col justify-center items-center relative z-10">
         <div
-          className="flex flex-col z-20 w-full justify-center items-center sm:px-[200px] py-[100px] rounded-md"
+          className="flex flex-col z-20 w-full justify-center items-center px-[50px] sm:px-[200px] md:py-[100px] py-[50px] rounded-md"
           style={{
             background: "rgba(127, 149, 244, 0.40)",
           }}
         >
           <div className="flex flex-col justify-center items-left ">
-            <p className="text-[70px] font-geo font-bold text-custom-blue tracking-tight">
+            <p className="md:text-[70px] text-[35px] font-geo font-bold text-custom-blue tracking-tight">
               CONTACT US
             </p>
             <p className="text-[16px] font-geo font-normal text-custom-blue mt-10">

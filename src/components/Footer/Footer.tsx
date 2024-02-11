@@ -4,11 +4,11 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="flex flex-col justify-center items-center">
-      <div className="w-screen h-full flex flex-col justify-center items-center bg-white py-20">
+      <div className="w-screen h-full flex flex-col justify-center items-center bg-white md:py-20 py-5">
         <div className="flex flex-col justify-center items-center">
           <div className="bg-white">
             <div className="mx-auto">
-              <div className="grid grid-cols-2 gap-8 md:grid-cols-3">
+              <div className="grid grid-cols-2 gap-8 md:grid-cols-3 px-5 md:ml-[130px]">
                 <div>
                   <h2 className="font-geo text-[16px] font-bold text-custom-blue capitalize">
                     Contact
@@ -76,11 +76,11 @@ const Footer = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="mt-auto flex flex-col gap-5 justify-start items-start">
+                <div className="mt-auto flex flex-col gap-5 justify-start items-start mr-auto">
                   <button className="font-geo text-custom-blue font-bold">
                     Languaje
                   </button>
-                  <div className="flex w-full justify-start items-center gap-10">
+                  <div className="flex w-full justify-start items-center gap-10 ">
                     <Image
                       src="/images/USA.png"
                       width={73}
@@ -108,36 +108,73 @@ const Footer = () => {
               width={262}
               height={41}
               alt="footer-logo"
+              className="hidden md:block"
+            />
+            <Image
+              src="/images/footer-logo.png"
+              width={150}
+              height={40}
+              alt="footer-logo"
+              className="block md:hidden"
             />
           </div>
-          <div className="flex justify-center items-center md:gap-20">
+          <div className="flex justify-center items-center md:gap-20 gap-4">
             <Image
               src="/icons/Vector.svg"
               width={39}
               height={39}
               alt="icon"
-              className="w-[39px] h-[39px]"
+              className="w-[39px] h-[39px] md:block hidden"
             />
             <Image
               src="/icons/Frame.svg"
               width={39}
               height={39}
               alt="icon"
-              className="w-[39px] h-[39px]"
+              className="w-[39px] h-[39px] md:block hidden"
             />
             <Image
               src="/icons/Frame-1.svg"
               width={39}
               height={39}
               alt="icon"
-              className="w-[39px] h-[39px]"
+              className="w-[39px] h-[39px] md:block hidden"
             />
             <Image
               src="/icons/Frame-2.svg"
               width={39}
               height={39}
               alt="icon"
-              className="w-[39px] h-[39px]"
+              className="w-[39px] h-[39px] md:block hidden"
+            />
+            {/* Mobile  */}
+            <Image
+              src="/icons/Vector.svg"
+              width={20}
+              height={20}
+              alt="icon"
+              className="w-[39px] h-[39px] block md:hidden"
+            />
+            <Image
+              src="/icons/Frame.svg"
+              width={20}
+              height={20}
+              alt="icon"
+              className="w-[39px] h-[39px] block md:hidden"
+            />
+            <Image
+              src="/icons/Frame-1.svg"
+              width={20}
+              height={20}
+              alt="icon"
+              className="w-[39px] h-[39px] block md:hidden"
+            />
+            <Image
+              src="/icons/Frame-2.svg"
+              width={20}
+              height={20}
+              alt="icon"
+              className="w-[39px] h-[39px] block md:hidden"
             />
           </div>
         </div>
