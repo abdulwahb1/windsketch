@@ -20,23 +20,12 @@ export default function Page({}: Props) {
       <Head>
         <title>Windsketch</title>
       </Head>
-      <section className="flex flex-col w-full h-full min-h-[100dvh] justify-start items-center">
+      <section className="flex flex-col w-full h-full justify-start items-center">
         <Nav />
-
-        <div
-          className="w-screen h-[4724px] flex flex-col items-center z-10"
-          style={{ background: "var(--gradient-light_blue) " }}
-        >
-          <Hero />
-          <Feature />
-          <Showcase />
-          <Book />
-          <Drawing />
-          <CTA />
-          <Contact />
-
-          <Footer />
-        </div>
+        <Hero />
+        <Drawing />
+        <CTA />
+        <Footer />
       </section>
     </Fragment>
   );

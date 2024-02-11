@@ -13,7 +13,7 @@ import DemoButton from "../Reusable/DemoButton";
 
 const Nav = () => {
   return (
-    <Navbar position="static" className="my-3">
+    <Navbar position="static" className="my-3 overflow-hidden">
       <NavbarBrand>
         <svg
           width="263"

@@ -9,7 +9,7 @@ const Showcase = () => {
   return (
     <section className="flex flex-col justify-center items-center mt-[150px]">
       <div className="relative w-screen justify-center items-center flex ">
-        <div className="absolute h-[300px] w-[950px] flex justify-between items-center border border-solid border-[#F5944D] border-r-[10px] bg-[#F4944D] shadow-sm_box  shadow-black mt-[200px]">
+        <div className="absolute h-[300px] w-full sm:w-[950px] flex justify-between items-center border border-solid border-[#F5944D] border-r-[10px] bg-[#F4944D] shadow-sm_box  shadow-black mt-[200px]">
           <div className="h-[70px] w-[60px] ml-5 mb-[190px]">
             <svg
               width="60"
@@ -47,10 +47,10 @@ const Showcase = () => {
         </div>
       </div>
       <div className="flex flex-col justify-center items-center">
-        <div className="h-72 w-full">
+        <div className="hidden sm:block h-72 w-full -z-1">
           <svg
-            width="1920"
-            height="1242"
+            // width="5120"
+            // height="1242"
             viewBox="0 0 1920 1242"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ const Showcase = () => {
             <path d="M-11 163L1928 0V1079L-11 1242V163Z" fill="#0C2796" />
           </svg>
         </div>
-        <div className="flex flex-row w-full flex-wrap ml-[300px]">
+        <div className="flex flex-col sm:flex-row w-full flex-wrap justify-center items-center overflow-x-hidden">
           {GRID_LIST.map((grid) => (
             <ShowcaseCard
               key={grid.id}
@@ -70,7 +70,7 @@ const Showcase = () => {
           ))}
         </div>
       </div>
-      <div className="flex flex-row pt-[106px] justify-evenly w-[600px]">
+      <div className="flex flex-col sm:flex-row pt-[106px] justify-evenly w-[600px]">
         <NowButton
           type="button"
           title="Start Now"
