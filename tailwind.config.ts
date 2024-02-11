@@ -2,6 +2,7 @@ import type { Config } from "tailwindcss";
 const { nextui } = require("@nextui-org/react");
 
 const config: Config = {
+  mode: "jit", // Add this line
   content: [
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -34,4 +35,5 @@ const config: Config = {
     }),
   ],
 };
+
 export default config;

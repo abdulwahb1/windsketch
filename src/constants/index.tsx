@@ -216,16 +216,16 @@ export const GRID_LIST: {
     ),
     id: 13,
   },
-  {
-    icon: "/images/g15.png",
-    w_1: 100,
-    h_1: 154,
-    title: (
-      <p className="text-[12px] mt-5 h-[25px] text-[#0C2796] font-geo font-bold text-center">
-        Left or Right <br />
-        HRT9LBR-9LBR (view)
-      </p>
-    ),
-    id: 14,
-  },
+  // {
+  //   icon: "/images/g15.png",
+  //   w_1: 100,
+  //   h_1: 154,
+  //   title: (
+  //     <p className="text-[12px] mt-5 h-[25px] text-[#0C2796] font-geo font-bold text-center">
+  //       Left or Right <br />
+  //       HRT9LBR-9LBR (view)
+  //     </p>
+  //   ),
+  //   id: 14,
+  // },
 ];

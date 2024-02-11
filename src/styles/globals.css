@@ -85,4 +85,12 @@ body {
   .btn_transparent_outline {
     @apply px-8 py-5 text-white hover:bg-[#F4944D] border-white border-3;
   }
+
+  .btn_transparent_outline_hover_blue {
+    @apply px-8 py-5 text-white hover:bg-custom-blue border-white border-3;
+  }
+
+  .btn_dark_blue1 {
+    @apply bg-[#0C2796] px-8 py-5 text-white;
+  }
 }

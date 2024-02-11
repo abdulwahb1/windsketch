@@ -10,7 +10,7 @@ type ShowcaseCardProps = {
 
 const ShowcaseCard = ({ title, icon, w_1, h_1 }: ShowcaseCardProps) => {
   return (
-    <div className="flex flex-col justify-start items-center w-[130px] h-[130px]  md:w-[230px] md:h-[230px] bg-[#CCD5FB] md:ml-5  mt-5">
+    <div className="flex flex-col justify-start items-center w-[120px] h-[130px]  md:w-[230px] md:h-[230px] bg-[#CCD5FB] md:ml-5  mt-5">
       <div
         className="flex flex-col items-center justify-center w-full h-full"
         style={{ background: "var(--gradient-slate)" }}

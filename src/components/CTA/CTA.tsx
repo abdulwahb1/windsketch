@@ -5,17 +5,18 @@ import NowButton from "../Reusable/NowButton";
 import { Contact } from "@/components";
 const CTA = () => {
   return (
-    <section className="md:flex flex-col justify-center items-center h-full pt-20 w-full ">
+    <section className="md:flex flex-col justify-center items-center h-full mt-[-150px] w-full ">
+      {/* 4th feature */}
       <div className="w-screen absolute flex flex-col -z-10 ">
         <Image
           src="/images/gradient_orange.png"
           width={300}
           height={1}
           alt="gradient"
-          className="w-screen md:h-full h-screen md:mb-[260px]"
+          className="w-screen md:h-full h-screen md:mb-[500px]"
         />
       </div>
-      <div className="relative flex justify-center items-center z-10">
+      <div className="relative flex justify-center items-center z-10 scale-80">
         <svg
           className="absolute hidden sm:block"
           fill="none"
@@ -36,7 +37,7 @@ const CTA = () => {
             ></linearGradient>
           </defs>
         </svg>
-        <div className="justify-center items-center flex flex-col mt-[150px] z-20">
+        <div className="justify-center items-center flex flex-col mt-[100px] md:mt-[150px]  z-20">
           <div className="flex flex-row justify-evenly w-full ">
             <p className="text-[35px] md:text-[70px] font-geo font-bold text-custom-blue tracking-tight md:mr-[750px] ">
               SCHEDULING <br /> MADE SIMPLE

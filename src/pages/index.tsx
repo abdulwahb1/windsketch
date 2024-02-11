@@ -22,8 +22,11 @@ export default function Page({}: Props) {
       </Head>
       <section className="flex flex-col w-full h-full justify-start items-center">
         <Nav />
-        <Hero />
-        <Drawing />
+        <div className="relative">
+          <Hero />
+
+          <Drawing />
+        </div>
         <CTA />
         <Footer />
       </section>

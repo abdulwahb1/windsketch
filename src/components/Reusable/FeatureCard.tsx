@@ -19,14 +19,14 @@ const FeatureCard = ({
   h_1,
 }: FeatureCardProps) => {
   return (
-    <div className="flex flex-col sm:h-[600px] w-[200px] md:w-full h-[300px] sm:w-[350px]  bg-white items-center justify-center shadow-shadow_shadow md:ml-5 rounded-xl">
+    <div className="flex flex-col sm:h-[600px] w-[180px] md:w-full md:scale-80 h-[300px] ml-2 mb-2  bg-white items-center justify-center shadow-shadow_shadow md:ml-5 rounded-xl">
       <div className="relative ">
         <Image
           src={icon}
           alt={"icon"}
           width={60}
           height={60}
-          className="flex sm:hidden mr-5"
+          className="flex sm:hidden "
         />
         <Image
           src={icon}

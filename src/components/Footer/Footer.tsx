@@ -153,28 +153,28 @@ const Footer = () => {
               width={20}
               height={20}
               alt="icon"
-              className="w-[39px] h-[39px] block md:hidden"
+              className=" block md:hidden"
             />
             <Image
               src="/icons/Frame.svg"
               width={20}
               height={20}
               alt="icon"
-              className="w-[39px] h-[39px] block md:hidden"
+              className=" block md:hidden"
             />
             <Image
               src="/icons/Frame-1.svg"
               width={20}
               height={20}
               alt="icon"
-              className="w-[39px] h-[39px] block md:hidden"
+              className=" block md:hidden"
             />
             <Image
               src="/icons/Frame-2.svg"
               width={20}
               height={20}
               alt="icon"
-              className="w-[39px] h-[39px] block md:hidden"
+              className=" block md:hidden"
             />
           </div>
         </div>

@@ -7,13 +7,13 @@ import { Feature, Showcase, Book } from "@/components";
 const Hero = () => {
   return (
     <section
-      className="flex-col justify-center items-center pt-3 z-50 flex w-full h-full "
+      className="flex-col justify-center items-center z-50 flex w-full h-full "
       style={{
         background:
           "linear-gradient(180deg, #0C2796 20%, rgba(62, 97, 251, 0.40) 28%, rgba(127, 149, 244, 0.00) 100%)",
       }}
     >
-      <div className="w-full h-full flex justify-center items-center flex-col mt-[100px] ">
+      <div className="w-full h-full flex justify-center items-center flex-col  scale-80 ">
         <div className="flex flex-col justify-center items-center w-full">
           <div className="flex flex-col justify-center items-center ">
             <h1 className="text-white font-geobold font-bold text-[60px] capitalize  tracking-widest text-center leading-[70px] sm:leading-tight">
@@ -45,13 +45,15 @@ const Hero = () => {
                 h_4={62}
               />
             </div>
-            <Image
+            <div className="mt-[80px] h-[300px] w-full  bg-white rounded-xl">
+              {/* <Image
               src="/images/hero.png"
               width={375}
               height={810}
               alt="hero image"
               className="mt-[80px] h-[300px] w-[300px] sm:w-[1200px] sm:h-[810px]"
-            />
+            /> */}
+            </div>
           </div>
           <div className="my-[40px]">
             <h2 className="md:text-[#0C2796] text-white text-[40px] text-center md:text-[80px] font-bold capitalize font-geo">

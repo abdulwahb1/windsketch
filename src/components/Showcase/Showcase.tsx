@@ -122,7 +122,7 @@ const Showcase = () => {
           ))}
         </div>
       </div>
-      <div className="flex flex-col sm:flex-row pt-[50px] md:pt-[106px] justify-evenly md:w-[600px] gap-y-5">
+      <div className="flex flex-col sm:flex-row pt-[20px] md:pt-[106px] justify-evenly md:w-[600px] gap-y-5 scale-75 md:scale-100">
         <NowButton
           type="button"
           title="Start Now"

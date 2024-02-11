@@ -5,35 +5,20 @@ import DemoButton from "../Reusable/DemoButton";
 
 const Drawing = () => {
   return (
-    <section className="flex flex-col justify-center items-center md:mt-[400px] mt-[100px] relative z-0">
-      <div className="w-screen md:h-[3500px] absolute hidden md:flex flex-col justify-start items-center z-0 ">
-        <svg
-          className="w-full h-full"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M-19 161.5L1920 0.5V3091L-19 3250.5V161.5Z"
-            fill="url(#paint0_linear_958_468)"
-          />
-          <defs>
-            <linearGradient
-              id="paint0_linear_958_468"
-              x1="951"
-              y1="1545.01"
-              x2="951"
-              y2="2712.51"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stopColor="#7F95F4" />
-              <stop offset="1" stopColor="#0C2796" />
-            </linearGradient>
-          </defs>
-        </svg>
+    <section className="flex flex-col h-full justify-center items-center md:mt-[-100px] mt-[-20px] relative z-20">
+      <div className="w-screen h-full absolute flex flex-col  z-20">
+        <Image
+          src="/images/gradient_blue.png"
+          width={1200}
+          height={1200}
+          alt="gradient"
+          className="w-full h-full  z-20"
+        />
       </div>
-      <div className="z-10 relative ">
+      {/* 2nd feature */}
+      <div className="z-30 relative md:mt-[200px] mt-[100px] md:scale-80 scale-80">
         <div className="flex flex-row justify-evenly w-full z-20">
-          <p className="text-[30px] md:text-[70px] font-geo font-bold text-custom-blue tracking-tight md:mr-[250px] ml-5">
+          <p className="text-[30px] md:text-[70px] font-geo font-bold text-custom-blue tracking-tight md:mr-[500px] ml-5">
             EASY PLAN DRAWING <br /> AND SHARING
           </p>
           <Image
@@ -83,7 +68,8 @@ const Drawing = () => {
           </div>
         </div>
       </div>
-      <div className="z-10 relative flex flex-col mt-[100px]">
+      {/* 3rd feature */}
+      <div className="z-30 relative flex flex-col mt-[-100px] scale-80">
         <div className="flex flex-row justify-evenly w-full">
           <Image
             src="/icons/icon2.svg"
@@ -134,6 +120,7 @@ const Drawing = () => {
             />
           </div>
         </div>
+        <div className="pb-10"></div>
       </div>
     </section>
   );
