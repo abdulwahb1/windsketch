@@ -5,19 +5,19 @@ import NowButton from "../Reusable/NowButton";
 import { Contact } from "@/components";
 const CTA = () => {
   return (
-    <section
-      className="flex flex-col justify-center items-center h-full pt-20 w-full"
-      style={{
-        background:
-          "linear-gradient(180deg, #F4944D 10%, rgba(62, 97, 251, 0.10) 100%)",
-      }}
-    >
+    <section className="md:flex flex-col justify-center items-center h-full pt-20 w-full ">
+      <div className="w-screen absolute flex flex-col -z-10 ">
+        <Image
+          src="/images/gradient_orange.png"
+          width={300}
+          height={1}
+          alt="gradient"
+          className="w-screen md:h-full h-screen md:mb-[260px]"
+        />
+      </div>
       <div className="relative flex justify-center items-center z-10">
         <svg
-          className="absolute"
-          width="1920"
-          height="1500"
-          viewBox="0 0 1920 1500"
+          className="absolute hidden sm:block"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -37,21 +37,28 @@ const CTA = () => {
           </defs>
         </svg>
         <div className="justify-center items-center flex flex-col mt-[150px] z-20">
-          <div className="flex flex-col sm:flex-row justify-evenly w-full ">
-            <p className="text-[70px] font-geo font-bold text-custom-blue tracking-tight mr-[750px]">
+          <div className="flex flex-row justify-evenly w-full ">
+            <p className="text-[35px] md:text-[70px] font-geo font-bold text-custom-blue tracking-tight md:mr-[750px] ">
               SCHEDULING <br /> MADE SIMPLE
             </p>
             <Image
               src="/icons/icon5.svg"
               alt="icon"
-              width={122}
-              height={108}
-              className="mt-[-60px]"
+              width={76}
+              height={122}
+              className="md:mt-[-10px] hidden md:block"
+            />
+            <Image
+              src="/icons/icon5.svg"
+              alt="icon"
+              width={60}
+              height={60}
+              className="md:mt-[-10px] ml-[70px] md:hidden sm:block mr-5"
             />
           </div>
-          <div className="flex flex-col justify-between items-center w-full sm:w-[1396px] h-[791px] bg-black rounded-xl mt-[60px] z-10"></div>
-          <div className="flex flex-col sm:flex-row  z-10  mt-10">
-            <p className="w-full max-w-[200px] sm:max-w-none sm:w-[700px] h-[194px] font-geo text-[16px] font-normal text-custom-blue">
+          <div className="flex flex-col justify-between items-center w-full h-[791px] bg-black rounded-xl mt-[30px] md:mt-[60px] z-10"></div>
+          <div className="flex flex-col sm:flex-row  z-20 mt-5 md:mt-10 ">
+            <p className="w-full  sm:max-w-none sm:w-[700px]  font-geo sm:text-[14px] md:text-[16px] font-normal text-custom-blue text-center md:text-left">
               WindSketch simplifies the process of drafting and sharing plans.
               Our platform offers intuitive tools that allow users to easily
               customize pre-designed templates to match their specific needs.
@@ -62,7 +69,7 @@ const CTA = () => {
               complexity often associated with plan development and
               distribution.
             </p>
-            <div className="flex flex-col sm:flex-row justify-evenly ml-[100px] gap-x-11">
+            <div className="flex flex-col sm:flex-row justify-evenly sm:ml-[100px] md:gap-x-11 items-center gap-y-3 mt-5 md:mt-0">
               <NowButton
                 type="button"
                 title="Start Now"

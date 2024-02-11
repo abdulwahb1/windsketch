@@ -110,7 +110,7 @@ const Footer = () => {
               alt="footer-logo"
             />
           </div>
-          <div className="flex justify-center items-center gap-20">
+          <div className="flex justify-center items-center md:gap-20">
             <Image
               src="/icons/Vector.svg"
               width={39}

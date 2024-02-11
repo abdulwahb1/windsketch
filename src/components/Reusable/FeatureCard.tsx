@@ -3,7 +3,7 @@ import Image from "next/image";
 
 type FeatureCardProps = {
   icon: string;
-  title: string;
+  title: React.ReactNode;
   info: string;
   cta: string;
   w_1: number;
@@ -19,17 +19,33 @@ const FeatureCard = ({
   h_1,
 }: FeatureCardProps) => {
   return (
-    <div className="flex flex-col w-full sm:w-[360px] h-[500px] bg-white items-center justify-center shadow-shadow_shadow ml-5 rounded-xl">
-      <div className="relative">
-        <Image src={icon} alt={"icon"} width={w_1} height={h_1} className="" />
+    <div className="flex flex-col sm:h-[600px] w-[200px] md:w-full h-[300px] sm:w-[350px]  bg-white items-center justify-center shadow-shadow_shadow md:ml-5 rounded-xl">
+      <div className="relative ">
+        <Image
+          src={icon}
+          alt={"icon"}
+          width={60}
+          height={60}
+          className="flex sm:hidden mr-5"
+        />
+        <Image
+          src={icon}
+          alt={"icon"}
+          width={w_1}
+          height={h_1}
+          className="hidden sm:flex"
+        />
       </div>
-      <div className="flex flex-col justify-center items-center w-[330px] pl-2 mt-[50px] ">
-        <p className="text-[#0C2796] text-[30px] font-bold uppercase font-geo h-[180px] tracking-wide">
+      <div className="flex flex-col justify-center items-center">
+        {/* <p className="text-[#0C2796] text-[14px] sm:text-[15px] md:text-[30px] font-bold uppercase font-geo tracking-wide">
           {title}
-        </p>
+        </p> */}
+        {title}
 
-        <div className="flex flex-row mr-auto w-[328px] mt-10">
-          <p className="text-[#7F95F4] text-[20px] font-bold ">{info}</p>
+        <div className="flex flex-row mr-auto sm:mt-10 mt-5 pl-5">
+          <p className="text-[#7F95F4] text-[16px] md:text-[20px] font-bold ">
+            {info}
+          </p>
 
           <Image
             src={cta}

@@ -7,27 +7,27 @@ import { Feature, Showcase, Book } from "@/components";
 const Hero = () => {
   return (
     <section
-      className="flex flex-col justify-center items-center pt-3 z-50 w-full"
+      className="flex-col justify-center items-center pt-3 z-50 flex w-full h-full "
       style={{
         background:
           "linear-gradient(180deg, #0C2796 20%, rgba(62, 97, 251, 0.40) 28%, rgba(127, 149, 244, 0.00) 100%)",
       }}
     >
-      <div className="w-screen h-full flex justify-center items-center flex-col mt-[100px]">
+      <div className="w-full h-full flex justify-center items-center flex-col mt-[100px] ">
         <div className="flex flex-col justify-center items-center w-full">
           <div className="flex flex-col justify-center items-center ">
-            <h1 className="text-white font-geobold font-bold text-[70px] capitalize  tracking-widest text-center sm:w-[900px] leading-[70px]">
-              Simplifying Blueprints <br />{" "}
-              <span className="text-[50px] font-light font-geo ">
+            <h1 className="text-white font-geobold font-bold text-[60px] capitalize  tracking-widest text-center leading-[70px] sm:leading-tight">
+              Simplifying <br className="md:hidden" /> Blueprints <br />{" "}
+              <span className="text-[50px] font-light font-geo text-center">
                 for Window & Door Installation{" "}
               </span>
             </h1>
-            <p className="text-[#7F95F4] font-geo text-[18px] font-light text-center sm:w-[650px] mt-[45px]">
+            <p className="text-[#7F95F4] font-geo text-[18px] font-light text-center mt-[45px]">
               Book a demo to know how WindSketch Streamlines Floorplans Creation{" "}
               <br />
               for Window and Door Installers.
             </p>
-            <div className="flex flex-col sm:flex-row mt-10 justify-evenly sm:w-[600px]">
+            <div className="flex flex-col sm:flex-row mt-10 justify-evenly gap-5">
               <NowButton
                 type="button"
                 title="Start Now"
@@ -47,14 +47,14 @@ const Hero = () => {
             </div>
             <Image
               src="/images/hero.png"
-              width={1200}
+              width={375}
               height={810}
               alt="hero image"
               className="mt-[80px] h-[300px] w-[300px] sm:w-[1200px] sm:h-[810px]"
             />
           </div>
           <div className="my-[40px]">
-            <h2 className="text-[#0C2796] text-[80px] font-bold capitalize font-geo">
+            <h2 className="md:text-[#0C2796] text-white text-[40px] text-center md:text-[80px] font-bold capitalize font-geo">
               What makes us the best
             </h2>
           </div>

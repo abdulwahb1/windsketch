@@ -5,7 +5,7 @@ import { FEATURE_LIST } from "@/constants";
 const Feature = () => {
   return (
     <section className="flex flex-col z-0 relative w-full items-center justify-center">
-      <div className="flex flex-col gap-5 sm:gap-0 sm:flex-row justify-start items-center ml-3">
+      <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-2 gap-2  md:gap-5 sm:gap-0 justify-start items-center md:ml-3">
         {FEATURE_LIST.map((feature) => (
           <FeatureCard
             key={feature.id}

@@ -11,7 +11,11 @@ export const FEATURE_LIST = [
     icon: "/icons/icon1.svg",
     w_1: 76,
     h_1: 122,
-    title: "ALL YOUR PLANS IN ONE PLACE, ACCESSIBLE FROM ANYWHERE",
+    title: (
+      <p className="text-[#0C2796] text-[14px] sm:text-[15px] md:text-[30px] font-bold uppercase font-geo tracking-wide md:pl-5 mt-5 text-center md:text-left p-2">
+        ALL YOUR PLANS IN ONE PLACE, ACCESSIBLE FROM ANYWHERE
+      </p>
+    ),
     info: "Read More",
     cta: "/icons/small-arrow.svg",
     id: 1,
@@ -20,7 +24,11 @@ export const FEATURE_LIST = [
     icon: "/icons/icon4.svg",
     w_1: 111,
     h_1: 121,
-    title: "EASY PLAN DRAWING AND SHARING",
+    title: (
+      <p className="text-[#0C2796] text-[14px] sm:text-[15px] md:text-[30px] font-bold uppercase font-geo tracking-wide md:pl-5 mt-5 text-center md:text-left p-2">
+        EASY PLAN DRAWING AND SHARING
+      </p>
+    ),
     info: "Read More",
     cta: "/icons/small-arrow.svg",
     id: 2,
@@ -29,7 +37,11 @@ export const FEATURE_LIST = [
     icon: "/icons/icon2.svg",
     w_1: 104,
     h_1: 122,
-    title: "AUTOMATIC GENERATION OF ESTIMATES AND CONTRACTS",
+    title: (
+      <p className="text-[#0C2796] text-[14px] sm:text-[15px] md:text-[30px] font-bold uppercase font-geo tracking-wide md:pl-5 mt-5 text-center md:text-left p-2">
+        AUTOMATIC GENERATION OF ESTIMATES AND CONTRACTS
+      </p>
+    ),
     info: "Read More",
     cta: "/icons/small-arrow.svg",
     id: 3,
@@ -38,7 +50,11 @@ export const FEATURE_LIST = [
     icon: "/icons/icon3.svg",
     w_1: 122,
     h_1: 108,
-    title: "Collaborative work, set your schedule using our calendar",
+    title: (
+      <p className="text-[#0C2796] text-[14px] sm:text-[15px] md:text-[30px] font-bold uppercase font-geo tracking-tight md:pl-5 mt-5 text-center md:text-left p-2">
+        Collaborative work, set your schedule using our calendar
+      </p>
+    ),
     info: "Read More",
     cta: "/icons/small-arrow.svg",
     id: 4,

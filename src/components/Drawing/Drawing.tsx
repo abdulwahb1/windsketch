@@ -5,8 +5,8 @@ import DemoButton from "../Reusable/DemoButton";
 
 const Drawing = () => {
   return (
-    <section className="flex flex-col justify-center items-center mt-[400px] relative z-0">
-      <div className="w-screen h-[3500px] absolute flex flex-col justify-start items-center z-0">
+    <section className="flex flex-col justify-center items-center md:mt-[400px] mt-[100px] relative z-0">
+      <div className="w-screen md:h-[3500px] absolute hidden md:flex flex-col justify-start items-center z-0 ">
         <svg
           className="w-full h-full"
           fill="none"
@@ -32,21 +32,28 @@ const Drawing = () => {
         </svg>
       </div>
       <div className="z-10 relative ">
-        <div className="flex flex-col sm:flex-row justify-evenly w-full">
-          <p className="text-[70px] font-geo font-bold text-custom-blue tracking-tight mr-[500px]">
+        <div className="flex flex-row justify-evenly w-full z-20">
+          <p className="text-[30px] md:text-[70px] font-geo font-bold text-custom-blue tracking-tight md:mr-[250px] ml-5">
             EASY PLAN DRAWING <br /> AND SHARING
           </p>
           <Image
             src="/icons/icon4.svg"
             alt="icon"
-            width={111}
-            height={121}
-            className="mt-[-60px]"
+            width={76}
+            height={122}
+            className="md:mt-[-10px] hidden md:block"
+          />
+          <Image
+            src="/icons/icon4.svg"
+            alt="icon"
+            width={60}
+            height={60}
+            className="md:mt-[-10px] ml-2 md:hidden sm:block mr-5"
           />
         </div>
-        <div className="flex flex-col justify-between items-center w-full sm:w-[1396px] h-[791px] bg-black rounded-xl mt-[60px] z-10"></div>
-        <div className="flex flex-row  z-10  mt-10">
-          <p className="w-full max-w-[200px] sm:max-w-none sm:w-[700px] h-[194px] font-geo text-[16px] font-normal text-custom-blue">
+        <div className="flex flex-col justify-between items-center w-full h-[791px] bg-black rounded-xl mt-[30px] md:mt-[60px] z-10"></div>
+        <div className="flex flex-col sm:flex-row  z-20 mt-5 md:mt-10 ">
+          <p className="w-full  sm:max-w-none sm:w-[700px]  font-geo sm:text-[14px] md:text-[16px] font-normal text-custom-blue text-center md:text-left">
             WindSketch simplifies the process of drafting and sharing plans. Our
             platform offers intuitive tools that allow users to easily customize
             pre-designed templates to match their specific needs. Creating
@@ -56,7 +63,7 @@ const Drawing = () => {
             collaboration and keeps all parties informed, without the complexity
             often associated with plan development and distribution.
           </p>
-          <div className="flex flex-col sm:flex-row justify-evenly ml-[100px] gap-x-11">
+          <div className="flex flex-col sm:flex-row justify-evenly sm:ml-[100px] md:gap-x-11 items-center gap-y-3 mt-5 md:mt-0">
             <NowButton
               type="button"
               title="Start Now"
@@ -76,16 +83,29 @@ const Drawing = () => {
           </div>
         </div>
       </div>
-      <div className="z-10 relative">
-        <div className="flex flex-row justify-evenly w-full ">
-          <Image src="/icons/icon2.svg" alt="icon" width={104} height={122} />
-          <p className="text-[70px] font-geo font-bold text-white tracking-tight ml-[550px]  text-right">
+      <div className="z-10 relative flex flex-col mt-[100px]">
+        <div className="flex flex-row justify-evenly w-full">
+          <Image
+            src="/icons/icon2.svg"
+            alt="icon"
+            width={76}
+            height={122}
+            className="md:mt-[-10px] hidden md:block"
+          />
+          <Image
+            src="/icons/icon2.svg"
+            alt="icon"
+            width={60}
+            height={60}
+            className="md:mt-[-10px] ml-2 md:hidden sm:block mr-5"
+          />
+          <p className="md:text-[70px] text-[30px] font-geo font-bold text-black tracking-tight sm:ml-[550px]  text-right ">
             EASY PLAN DRAWING <br /> AND SHARING
           </p>
         </div>
-        <div className="flex flex-col justify-between items-center w-full sm:w-[1396px] h-[791px] bg-black rounded-xl mt-[60px] z-10"></div>
-        <div className="flex flex-row  z-10  mt-10">
-          <p className="w-full max-w-[200px] sm:max-w-none sm:w-[700px] h-[194px] font-geo text-[16px] font-normal text-white">
+        <div className="flex flex-col justify-between items-center w-full h-[791px] bg-black rounded-xl mt-[30px] md:mt-[60px] z-10"></div>
+        <div className="flex flex-col sm:flex-row  z-20 mt-5 md:mt-10 ">
+          <p className="w-full  sm:max-w-none sm:w-[700px]  font-geo sm:text-[14px] md:text-[16px] font-normal text-white text-center md:text-left">
             WindSketch simplifies the process of drafting and sharing plans. Our
             platform offers intuitive tools that allow users to easily customize
             pre-designed templates to match their specific needs. Creating
@@ -95,7 +115,7 @@ const Drawing = () => {
             collaboration and keeps all parties informed, without the complexity
             often associated with plan development and distribution.
           </p>
-          <div className="flex flex-col sm:flex-row justify-evenly ml-[100px] gap-x-11">
+          <div className="flex flex-col sm:flex-row justify-evenly sm:ml-[100px] md:gap-x-11 items-center gap-y-3 mt-5 md:mt-0">
             <NowButton
               type="button"
               title="Start Now"
@@ -108,7 +128,7 @@ const Drawing = () => {
               title="Book A Demo"
               icon="/icons/arrow.svg"
               variant="btn_golden"
-              color="text-[#0C2796]"
+              color="white"
               w_4={263}
               h_4={62}
             />
