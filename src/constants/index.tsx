@@ -12,7 +12,7 @@ export const FEATURE_LIST = [
     w_1: 76,
     h_1: 122,
     title: (
-      <p className="text-[#0C2796] text-[14px] sm:text-[15px] md:text-[30px] font-bold uppercase font-geo tracking-wide md:pl-5 mt-5 text-center md:text-left p-2">
+      <p className="text-[#0C2796] text-[14px] sm:text-[15px] lg:text-[20px] xl:text-[30px] font-bold uppercase font-geo tracking-wide lg:pl-5 mt-5 text-center lg:text-left p-2">
         ALL YOUR PLANS IN ONE PLACE, ACCESSIBLE FROM ANYWHERE
       </p>
     ),
@@ -25,7 +25,7 @@ export const FEATURE_LIST = [
     w_1: 111,
     h_1: 121,
     title: (
-      <p className="text-[#0C2796] text-[14px] sm:text-[15px] md:text-[30px] font-bold uppercase font-geo tracking-wide md:pl-5 mt-5 text-center md:text-left p-2">
+      <p className="text-[#0C2796] text-[14px] sm:text-[15px] lg:text-[20px] xl:text-[30px] font-bold uppercase font-geo tracking-wide lg:pl-5 mt-5 text-center lg:text-left p-2 mb-[70px]">
         EASY PLAN DRAWING AND SHARING
       </p>
     ),
@@ -38,7 +38,7 @@ export const FEATURE_LIST = [
     w_1: 104,
     h_1: 122,
     title: (
-      <p className="text-[#0C2796] text-[14px] sm:text-[15px] md:text-[30px] font-bold uppercase font-geo tracking-wide md:pl-5 mt-5 text-center md:text-left p-2">
+      <p className="text-[#0C2796] text-[14px] sm:text-[15px] lg:text-[20px] xl:text-[30px] font-bold uppercase font-geo tracking-wide lg:pl-5 mt-5 text-center lg:text-left p-2">
         AUTOMATIC GENERATION OF ESTIMATES AND CONTRACTS
       </p>
     ),
@@ -51,7 +51,7 @@ export const FEATURE_LIST = [
     w_1: 122,
     h_1: 108,
     title: (
-      <p className="text-[#0C2796] text-[14px] sm:text-[15px] md:text-[30px] font-bold uppercase font-geo tracking-tight md:pl-5 mt-5 text-center md:text-left p-2">
+      <p className="text-[#0C2796] text-[14px] sm:text-[15px] lg:text-[20px] xl:text-[30px] font-bold uppercase font-geo tracking-tight lg:pl-5 mt-5 text-center lg:text-left p-2 mb-10">
         Collaborative work, set your schedule using our calendar
       </p>
     ),

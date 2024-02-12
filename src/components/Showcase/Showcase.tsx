@@ -7,17 +7,17 @@ import DemoButton from "../Reusable/DemoButton";
 
 const Showcase = () => {
   return (
-    <section className="flex flex-col justify-center items-center mt-[90px] md:mt-[150px]">
+    <section className="flex flex-col justify-center items-center mt-[90px] lg:mt-[150px]">
       <div className="relative w-screen justify-center items-center flex ">
-        <div className="absolute h-[150px] md:h-[300px] w-[350px] sm:w-[950px] flex justify-between items-center border border-solid border-[#F5944D] border-r-[10px] bg-[#F4944D] shadow-sm_box  shadow-black mt-[150px]">
-          <div className="md:ml-5 md:mb-[190px] mb-[95px] p-2 md:p-0">
+        <div className="absolute h-[150px] lg:h-[300px] w-[350px] md:w-[950px] flex justify-between items-center border border-solid border-[#F5944D] border-r-[10px] bg-[#F4944D] shadow-sm_box  shadow-black mt-[150px]">
+          <div className="lg:ml-5 lg:mb-[190px] mb-[95px] p-2 lg:p-0">
             <svg
               width="60"
               height="60"
               viewBox="0 0 60 60"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="hidden md:block"
+              className="hidden lg:block"
             >
               <rect
                 x="2"
@@ -45,7 +45,7 @@ const Showcase = () => {
               viewBox="0 0 54 54"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="md:hidden sm:block"
+              className="lg:hidden sm:block"
             >
               <rect
                 x="1.991"
@@ -73,7 +73,7 @@ const Showcase = () => {
             </svg>
           </div>
           <div className="flex flex-col justify-center items-center ">
-            <p className="text-[#0C2796] md:text-[65px] text-[25px] text-center font-geobold font-bold capitalize md:p-10 p-3">
+            <p className="text-[#0C2796] lg:text-[65px] text-[25px] text-center font-geobold font-bold capitalize lg:p-10 p-3">
               Utilize our extensive library of grids
             </p>
           </div>
@@ -87,7 +87,7 @@ const Showcase = () => {
             viewBox="0 0 1920 1242"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="hidden sm:block "
+            className="hidden xl:block "
           >
             <path d="M-11 163L1928 0V1079L-11 1242V163Z" fill="#0C2796" />
           </svg>
@@ -110,7 +110,7 @@ const Showcase = () => {
             />
           ))}
         </div>
-        <div className="grid grid-cols-3 w-full justify-center items-center overflow-x-hidden md:hidden sm:block p-2">
+        <div className="grid grid-cols-2 w-full justify-center items-center overflow-x-hidden overflow-y-hidden lg:hidden sm:block p-2">
           {GRID_LIST.slice(0, 6).map((grid) => (
             <ShowcaseCard
               key={grid.id}
@@ -122,7 +122,7 @@ const Showcase = () => {
           ))}
         </div>
       </div>
-      <div className="flex flex-col sm:flex-row pt-[20px] md:pt-[106px] justify-evenly md:w-[600px] gap-y-5 scale-75 md:scale-100">
+      <div className="flex flex-col sm:flex-row pt-[20px] lg:pt-[106px] justify-evenly lg:w-[600px] gap-y-5 scale-75 lg:scale-100">
         <NowButton
           type="button"
           title="Start Now"

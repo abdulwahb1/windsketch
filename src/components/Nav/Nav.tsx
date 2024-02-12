@@ -568,7 +568,7 @@ export default function App() {
               href={link.href}
               key={link.id}
               className={
-                "text-[#0C2796] font-geo font-semibold text-[15px] md:ml-5 capitalize hover:text-[#F4944D] transition-all duration-300 ease-in-out"
+                "text-[#0C2796] font-geo font-semibold text-[15px] lg:ml-5 capitalize hover:text-[#F4944D] transition-all duration-300 ease-in-out"
               }
             >
               {link.text}
@@ -601,7 +601,7 @@ export default function App() {
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
-              className="w-full text-[#0C2796] font-geo font-semibold text-[15px] md:ml-5 capitalize hover:text-[#F4944D] transition-all duration-300 ease-in-out"
+              className="w-full text-[#0C2796] font-geo font-semibold text-[15px] lg:ml-5 capitalize hover:text-[#F4944D] transition-all duration-300 ease-in-out"
               href="#"
               size="lg"
             >

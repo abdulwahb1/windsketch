@@ -4,11 +4,11 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="flex flex-col justify-center items-center">
-      <div className="w-screen h-full flex flex-col justify-center items-center bg-white md:py-20 py-5">
+      <div className="w-screen h-full flex flex-col justify-center items-center bg-white lg:py-20 py-5">
         <div className="flex flex-col justify-center items-center">
           <div className="bg-white">
             <div className="mx-auto">
-              <div className="grid grid-cols-2 gap-8 md:grid-cols-3 px-5 md:ml-[130px]">
+              <div className="grid grid-cols-2 gap-8 lg:grid-cols-3 px-5 lg:ml-[130px]">
                 <div>
                   <h2 className="font-geo text-[16px] font-bold text-custom-blue capitalize">
                     Contact
@@ -108,44 +108,44 @@ const Footer = () => {
               width={262}
               height={41}
               alt="footer-logo"
-              className="hidden md:block"
+              className="hidden lg:block"
             />
             <Image
               src="/images/footer-logo.png"
               width={150}
               height={40}
               alt="footer-logo"
-              className="block md:hidden"
+              className="block lg:hidden"
             />
           </div>
-          <div className="flex justify-center items-center md:gap-20 gap-4">
+          <div className="flex justify-center items-center lg:gap-20 gap-4">
             <Image
               src="/icons/Vector.svg"
               width={39}
               height={39}
               alt="icon"
-              className="w-[39px] h-[39px] md:block hidden"
+              className="w-[39px] h-[39px] lg:block hidden"
             />
             <Image
               src="/icons/Frame.svg"
               width={39}
               height={39}
               alt="icon"
-              className="w-[39px] h-[39px] md:block hidden"
+              className="w-[39px] h-[39px] lg:block hidden"
             />
             <Image
               src="/icons/Frame-1.svg"
               width={39}
               height={39}
               alt="icon"
-              className="w-[39px] h-[39px] md:block hidden"
+              className="w-[39px] h-[39px] lg:block hidden"
             />
             <Image
               src="/icons/Frame-2.svg"
               width={39}
               height={39}
               alt="icon"
-              className="w-[39px] h-[39px] md:block hidden"
+              className="w-[39px] h-[39px] lg:block hidden"
             />
             {/* Mobile  */}
             <Image
@@ -153,28 +153,28 @@ const Footer = () => {
               width={20}
               height={20}
               alt="icon"
-              className=" block md:hidden"
+              className=" block lg:hidden"
             />
             <Image
               src="/icons/Frame.svg"
               width={20}
               height={20}
               alt="icon"
-              className=" block md:hidden"
+              className=" block lg:hidden"
             />
             <Image
               src="/icons/Frame-1.svg"
               width={20}
               height={20}
               alt="icon"
-              className=" block md:hidden"
+              className=" block lg:hidden"
             />
             <Image
               src="/icons/Frame-2.svg"
               width={20}
               height={20}
               alt="icon"
-              className=" block md:hidden"
+              className=" block lg:hidden"
             />
           </div>
         </div>

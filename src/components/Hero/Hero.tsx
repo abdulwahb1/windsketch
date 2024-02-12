@@ -7,7 +7,7 @@ import { Feature, Showcase, Book } from "@/components";
 const Hero = () => {
   return (
     <section
-      className="flex-col justify-center items-center z-50 flex w-full h-full "
+      className="flex-col justify-center items-center z-50 flex  w-full h-full "
       style={{
         background:
           "linear-gradient(180deg, #0C2796 20%, rgba(62, 97, 251, 0.40) 28%, rgba(127, 149, 244, 0.00) 100%)",
@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="flex flex-col justify-center items-center w-full">
           <div className="flex flex-col justify-center items-center ">
             <h1 className="text-white font-geobold font-bold text-[60px] capitalize  tracking-widest text-center leading-[70px] sm:leading-tight">
-              Simplifying <br className="md:hidden" /> Blueprints <br />{" "}
+              Simplifying <br className="lg:hidden" /> Blueprints <br />{" "}
               <span className="text-[50px] font-light font-geo text-center">
                 for Window & Door Installation{" "}
               </span>
@@ -56,7 +56,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="my-[40px]">
-            <h2 className="md:text-[#0C2796] text-white text-[40px] text-center md:text-[80px] font-bold capitalize font-geo">
+            <h2 className="lg:text-[#0C2796] text-white text-[40px] text-center lg:text-[80px] font-bold capitalize font-geo">
               What makes us the best
             </h2>
           </div>

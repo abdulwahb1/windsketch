@@ -21,7 +21,7 @@ const Nav = () => {
           viewBox="0 0 263 41"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="md:ml-[-170px]"
+          className="lg:ml-[-170px]"
         >
           <g clipPath="url(#clip0_874_1926)">
             <path
@@ -287,7 +287,7 @@ const Nav = () => {
               href={link.href}
               key={link.id}
               className={
-                "text-[#0C2796] font-geo font-semibold text-[18px] md:ml-[61px] capitalize hover:text-[#F4944D] transition-all duration-300 ease-in-out"
+                "text-[#0C2796] font-geo font-semibold text-[18px] lg:ml-[61px] capitalize hover:text-[#F4944D] transition-all duration-300 ease-in-out"
               }
             >
               {link.text}
@@ -296,7 +296,7 @@ const Nav = () => {
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
-        <div className=" md:w-[262px] h-[62px] sm:mr-[-160px] hidden sm:block">
+        <div className=" lg:w-[262px] h-[62px] sm:mr-[-160px] hidden sm:block">
           <DemoButton
             type="button"
             title="Book A Demo"

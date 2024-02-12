@@ -5,15 +5,15 @@ import DemoButton from "../Reusable/DemoButton";
 
 const Book = () => {
   return (
-    <section className=" flex flex-col justify-center items-center mt-[100px] md:mt-0 relative z-10  ">
+    <section className=" flex flex-col justify-center items-center mt-[100px] lg:mt-0 relative z-10 w-full ">
       <div
-        className="w-screen absolute h-[1300px] flex-col justify-start items-center mt-[400px] flex z-10"
+        className="w-screen lg:w-full absolute h-[1300px] flex-col justify-start items-center mt-[400px] flex z-10"
         style={{ background: "var(--gradient-dark_orange)" }}
       ></div>
       {/* 1st feature */}
-      <div className="z-10 scale-80 md:mt-[200px]">
+      <div className="z-10 scale-80 lg:mt-[200px]">
         <div className="flex flex-row justify-evenly w-full ">
-          <p className="text-[30px] md:text-[70px] font-geo font-bold text-custom-blue tracking-tight md:mr-[250px] ml-5">
+          <p className="text-[30px] lg:text-[50px] xl:text-[70px] font-geo font-bold text-custom-blue tracking-tight lg:mr-[250px] ml-5">
             ALL YOUR PLANS <br /> IN ONE PLACE, <br /> ACCESSIBLE FROM ANYWHERE
           </p>
           <Image
@@ -21,19 +21,19 @@ const Book = () => {
             alt="icon"
             width={76}
             height={122}
-            className="md:mt-[-10px] hidden md:block"
+            className="lg:mt-[-10px] hidden lg:block"
           />
           <Image
             src="/icons/icon1.svg"
             alt="icon"
             width={60}
             height={60}
-            className="md:mt-[-10px] mt-[-70px] md:hidden sm:block mr-5"
+            className="lg:mt-[-10px] mt-[-70px] lg:hidden sm:block mr-5"
           />
         </div>
-        <div className="flex flex-col justify-between items-center w-full sm:w-[1396px] h-[791px] bg-black rounded-xl mt-[30px] md:mt-[60px] z-20 "></div>
-        <div className="flex flex-col sm:flex-row  z-20 mt-5 md:mt-10 ">
-          <p className="w-full  sm:max-w-none sm:w-[700px]  font-geo sm:text-[14px] md:text-[16px] font-normal text-custom-blue text-center md:text-left">
+        <div className="flex flex-col justify-between items-center w-full xl:w-[1396px] h-[791px] bg-black rounded-xl mt-[30px] lg:mt-[60px] z-20 "></div>
+        <div className="flex flex-col sm:flex-row  z-20 mt-5 lg:mt-10 ">
+          <p className="w-full  sm:max-w-none sm:w-[700px]  font-geo sm:text-[14px] lg:text-[16px] font-normal text-custom-blue text-center lg:text-left">
             WindSketch simplifies the process of drafting and sharing plans. Our
             platform offers intuitive tools that allow users to easily customize
             pre-designed templates to match their specific needs. Creating
@@ -43,7 +43,7 @@ const Book = () => {
             collaboration and keeps all parties informed, without the complexity
             often associated with plan development and distribution.
           </p>
-          <div className="flex flex-col sm:flex-row justify-evenly sm:ml-[100px] md:gap-x-11 items-center gap-y-3 mt-5 md:mt-0">
+          <div className="flex flex-col xl:flex-row justify-evenly xl:ml-[100px] xl:gap-x-11 items-center gap-y-3 mt-5 lg:mt-0">
             <NowButton
               type="button"
               title="Start Now"
