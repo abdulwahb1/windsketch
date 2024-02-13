@@ -1,7 +1,7 @@
 export const videos = {
-  1: "https://www.youtube.com/embed/FbgNnFkTrD4?si=gx3oiCGXTRrvBGrW",
-  2: "https://www.youtube.com/embed/FbgNnFkTrD4?si=gx3oiCGXTRrvBGrW",
-  3: "https://www.youtube.com/embed/FbgNnFkTrD4?si=gx3oiCGXTRrvBGrW",
-  4: "https://www.youtube.com/embed/FbgNnFkTrD4?si=gx3oiCGXTRrvBGrW",
-  5: "https://www.youtube.com/embed/FbgNnFkTrD4?si=gx3oiCGXTRrvBGrW",
+  1: "/assets/section_1.mp4",
+  2: "/assets/section_2.png",
+  3: "/assets/section_3.jpg",
+  4: "/assets/section_4.png",
+  5: "/assets/section_5.png",
 };

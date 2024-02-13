@@ -74,7 +74,7 @@ const CTA = () => {
             <VideoCard url={videos[5]} />
           </div>
           <div className="flex flex-col xl:flex-row  z-20 mt-5 lg:mt-10 ">
-            <p className="w-full  sm:max-w-none sm:w-[700px]  font-geo sm:text-[14px] lg:text-[16px] font-normal text-custom-blue text-center lg:text-left">
+            <p className="w-full  sm:max-w-none 2xl:w-[700px]  font-geo sm:text-[14px] lg:text-[16px] font-normal text-custom-blue text-center xl:text-left">
               WindSketch simplifies the process of drafting and sharing plans.
               Our platform offers intuitive tools that allow users to easily
               customize pre-designed templates to match their specific needs.
@@ -85,7 +85,7 @@ const CTA = () => {
               complexity often associated with plan development and
               distribution.
             </p>
-            <div className="flex flex-col xl:flex-row justify-evenly xl:ml-[100px] xl:gap-x-11 items-center gap-y-3 mt-5 lg:mt-0">
+            <div className="flex flex-col xl:flex-row justify-evenly xl:ml-[100px] xl:gap-x-11 items-center gap-y-3 mt-5 xl:mt-0">
               <NowButton
                 type="button"
                 title="Start Now"

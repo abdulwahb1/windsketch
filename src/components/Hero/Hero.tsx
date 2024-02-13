@@ -9,7 +9,7 @@ import { videos } from "@/constants/videos";
 const Hero = () => {
   return (
     <section
-      className="flex-col justify-center items-center z-50 flex  2xl:w-full sm:w-screen h-full "
+      className="flex-col justify-center items-center z-30 flex  2xl:w-full sm:w-screen h-full "
       style={{
         background:
           "linear-gradient(180deg, #0C2796 20%, rgba(62, 97, 251, 0.40) 28%, rgba(127, 149, 244, 0.00) 100%)",

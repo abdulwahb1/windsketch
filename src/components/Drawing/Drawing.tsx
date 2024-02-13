@@ -7,7 +7,7 @@ import { videos } from "@/constants/videos";
 
 const Drawing = () => {
   return (
-    <section className="flex flex-col h-full justify-center items-center 2xl:mt-[-150px] mt-[-150px] xs:mt-[-150px] sm:mt-[-90px] lg:mt-[-115px] relative z-20 w-full">
+    <section className="flex flex-col h-full justify-center items-center 2xl:mt-[-150px] mt-[-150px] xs:mt-[-150px] sm:mt-[-100px] lg:mt-[-140px] relative z-20 w-full">
       <div className=" w-screen h-full absolute flex flex-col lg:w-full  z-20">
         <Image
           src="/images/gradient_blue.png"
@@ -42,7 +42,7 @@ const Drawing = () => {
           <VideoCard url={videos[3]} />
         </div>
         <div className="flex flex-col xl:flex-row  z-20 mt-5 lg:mt-10 ">
-          <p className="w-full  sm:max-w-none sm:w-[700px]  font-geo sm:text-[14px] lg:text-[16px] font-normal text-white text-center lg:text-left">
+          <p className="w-full  sm:max-w-none 2xl:w-[700px]  font-geo sm:text-[14px] lg:text-[16px] font-normal text-white text-center xl:text-left">
             WindSketch simplifies the process of drafting and sharing plans. Our
             platform offers intuitive tools that allow users to easily customize
             pre-designed templates to match their specific needs. Creating
@@ -52,7 +52,7 @@ const Drawing = () => {
             collaboration and keeps all parties informed, without the complexity
             often associated with plan development and distribution.
           </p>
-          <div className="flex flex-col xl:flex-row justify-evenly xl:ml-[100px] xl:gap-x-11 items-center gap-y-3 mt-5 lg:mt-0">
+          <div className="flex flex-col xl:flex-row justify-evenly xl:ml-[100px] xl:gap-x-11 items-center gap-y-3 mt-5 xl:mt-0">
             <NowButton
               type="button"
               title="Start Now"
@@ -97,7 +97,7 @@ const Drawing = () => {
           <VideoCard url={videos[4]} />
         </div>
         <div className="flex flex-col xl:flex-row  z-20 mt-5 lg:mt-10 ">
-          <p className="w-full  sm:max-w-none sm:w-[700px]  font-geo sm:text-[14px] lg:text-[16px] font-normal text-white text-center lg:text-left">
+          <p className="w-full  sm:max-w-none 2xl:w-[700px]  font-geo sm:text-[14px] lg:text-[16px] font-normal text-white text-center xl:text-left">
             WindSketch simplifies the process of drafting and sharing plans. Our
             platform offers intuitive tools that allow users to easily customize
             pre-designed templates to match their specific needs. Creating
@@ -107,7 +107,7 @@ const Drawing = () => {
             collaboration and keeps all parties informed, without the complexity
             often associated with plan development and distribution.
           </p>
-          <div className="flex flex-col xl:flex-row justify-evenly xl:ml-[100px] xl:gap-x-11 items-center gap-y-3 mt-5 lg:mt-0">
+          <div className="flex flex-col xl:flex-row justify-evenly xl:ml-[100px] xl:gap-x-11 items-center gap-y-3 mt-5 xl:mt-0">
             <NowButton
               type="button"
               title="Start Now"
