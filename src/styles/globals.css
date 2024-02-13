@@ -55,6 +55,12 @@ body {
     #f4944d 80.23%
   );
 
+  --gradient-dark_orange_inverted: linear-gradient(
+    180deg,
+    #f4944d 22.59%,
+    rgba(244, 148, 77, 0) 77.03%
+  );
+
   --gradient_contact: linear-gradient(
     180deg,
     rgba(62, 97, 251, 0.4) -16.77%,
@@ -66,6 +72,9 @@ body {
 @layer utilities {
   .btn_golden {
     @apply bg-[#F4944D] px-8 py-4 transition-all hover:bg-[#d16416];
+  }
+  .btn_golden2 {
+    @apply bg-[#F4944D] px-8 text-[#0C2796] py-4 transition-all hover:bg-[#d16416];
   }
   .btn_dark_blue_outline {
     @apply border-white bg-[#0C2796] px-8 py-5 text-white hover:bg-[#F4944D] border;

@@ -4,8 +4,8 @@ import { FEATURE_LIST } from "@/constants";
 
 const Feature = () => {
   return (
-    <section className="flex flex-col z-0 relative w-full items-center justify-center">
-      <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-2 gap-2 sm:gap-0  xl:ml-0 justify-start items-center ">
+    <section className="flex flex-col z-0 relative w-full items-center justify-center -mt-16 sm:mt-0">
+      <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-2 gap-2 sm:gap-5 xl:ml-0 justify-start items-center ">
         {FEATURE_LIST.map((feature) => (
           <FeatureCard
             key={feature.id}

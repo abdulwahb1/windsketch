@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="flex flex-col justify-center items-center">
-      <div className="w-screen h-full flex flex-col justify-center items-center bg-white lg:py-20 py-5">
+      <div className="w-screen  h-full flex flex-col justify-center items-center bg-white lg:py-20 py-5">
         <div className="flex flex-col justify-center items-center">
           <div className="bg-white">
             <div className="mx-auto">
@@ -100,9 +100,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-[80px] bg-custom-blue flex items-center justify-center">
+      <div className="w-full lg:w-full xl:w-[1500px] 2xl:w-full h-[80px] bg-custom-blue flex items-center justify-center">
         <div className="flex w-full justify-between items-center max-w-[1440px] px-4">
-          <div className="flex justify-cemter items-center">
+          <div className="flex justify-center items-center lg:pl-[100px] 2xl:pl-0">
             <Image
               src="/images/footer-logo.png"
               width={262}
@@ -118,7 +118,7 @@ const Footer = () => {
               className="block lg:hidden"
             />
           </div>
-          <div className="flex justify-center items-center lg:gap-20 gap-4">
+          <div className="flex justify-center items-center lg:gap-15 xl:gap-20 gap-2 pl-2 xs:pl-0 xs:gap-4">
             <Image
               src="/icons/Vector.svg"
               width={39}

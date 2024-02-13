@@ -25,8 +25,9 @@ export default function App() {
       isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
       position="static"
+      maxWidth="xl"
     >
-      <NavbarContent className="sm:hidden pr-3" justify="start">
+      <NavbarContent className="sm:hidden" justify="start">
         <NavbarBrand>
           <svg
             width="150"
@@ -568,7 +569,7 @@ export default function App() {
               href={link.href}
               key={link.id}
               className={
-                "text-[#0C2796] font-geo font-semibold text-[15px] lg:ml-5 capitalize hover:text-[#F4944D] transition-all duration-300 ease-in-out"
+                "text-[#0C2796] font-geo font-semibold lg:text-[18px] sm:ml-1 sm:text-[13px] lg:ml-5 capitalize hover:text-[#F4944D] transition-all duration-300 ease-in-out"
               }
             >
               {link.text}
@@ -577,14 +578,17 @@ export default function App() {
         </NavbarItem>
       </NavbarContent>
 
-      <NavbarContent justify="end" className="scale-50">
-        <NavbarItem className="hidden lg:flex ">
+      <NavbarContent
+        justify="end"
+        className="2xl:scale-80 sm:scale-50 sm:ml-[-15px]"
+      >
+        <NavbarItem className="hidden sm:flex ">
           <DemoButton
             type="button"
             title="Book A Demo"
-            icon="/icons/arrow.svg"
-            variant="btn_golden"
-            color="text-[#0C2796]"
+            icon="/icons/arrow_white.svg"
+            variant="btn_dark_blue"
+            color="white"
             w_4={243}
             h_4={63}
           />

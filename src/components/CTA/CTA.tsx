@@ -2,12 +2,25 @@ import Image from "next/image";
 import React from "react";
 import DemoButton from "../Reusable/DemoButton";
 import NowButton from "../Reusable/NowButton";
+import VideoCard from "../Reusable/VideoCard";
 import { Contact } from "@/components";
+import { videos } from "@/constants/videos";
+
 const CTA = () => {
   return (
-    <section className="lg:flex flex-col justify-center items-center h-full mt-[-150px] w-full ">
+    <section
+      className="flex flex-col justify-center items-center h-full mt-[-150px] sm:w-screen w-full "
+      style={{
+        background:
+          "linear-gradient(180deg, #F4944D 10%, rgba(62, 97, 251, 0.10) 100%)",
+      }}
+    >
       {/* 4th feature */}
-      <div className="w-screen lg:w-full absolute flex flex-col -z-10 ">
+      <div
+        className="w-screen lg:w-[1063px] xl:w-[1500px] 2xl:w-screen absolute h-[1300px] justify-start items-center mb-[1100px] flex z-10"
+        // style={{ background: "var(--gradient-dark_orange_inverted)" }}
+      ></div>
+      <div className="w-screen lg:w-full absolute flex-col -z-10 hidden">
         <Image
           src="/images/gradient_orange.png"
           width={300}
@@ -39,7 +52,7 @@ const CTA = () => {
         </svg>
         <div className="justify-center items-center flex flex-col mt-[100px] lg:mt-[150px]  z-20">
           <div className="flex flex-row justify-evenly w-full ">
-            <p className="text-[35px] lg:text-[70px] font-geo font-bold text-custom-blue tracking-tight xl:mr-[750px] ">
+            <p className="text-[30px] xs:text-[35px] lg:text-[70px] font-geo font-bold text-custom-blue tracking-tight xl:mr-[750px] ">
               SCHEDULING <br /> MADE SIMPLE
             </p>
             <Image
@@ -57,8 +70,10 @@ const CTA = () => {
               className="lg:mt-[-10px] ml-[70px] lg:hidden sm:block mr-5"
             />
           </div>
-          <div className="flex flex-col justify-between items-center w-full h-[791px] bg-black rounded-xl mt-[30px] lg:mt-[60px] z-10"></div>
-          <div className="flex flex-col sm:flex-row  z-20 mt-5 lg:mt-10 ">
+          <div className="flex items-center w-full xl:w-[1396px] mt-[30px] lg:mt-[60px] z-20 ">
+            <VideoCard url={videos[5]} />
+          </div>
+          <div className="flex flex-col xl:flex-row  z-20 mt-5 lg:mt-10 ">
             <p className="w-full  sm:max-w-none sm:w-[700px]  font-geo sm:text-[14px] lg:text-[16px] font-normal text-custom-blue text-center lg:text-left">
               WindSketch simplifies the process of drafting and sharing plans.
               Our platform offers intuitive tools that allow users to easily

@@ -2,11 +2,13 @@ import React from "react";
 import Image from "next/image";
 import NowButton from "../Reusable/NowButton";
 import DemoButton from "../Reusable/DemoButton";
+import VideoCard from "../Reusable/VideoCard";
+import { videos } from "@/constants/videos";
 
 const Drawing = () => {
   return (
-    <section className="flex flex-col h-full justify-center items-center lg:mt-[-100px] mt-[-20px] relative z-20 w-full">
-      <div className="w-screen h-full absolute flex flex-col lg:w-full  z-20">
+    <section className="flex flex-col h-full justify-center items-center 2xl:mt-[-150px] mt-[-150px] xs:mt-[-150px] sm:mt-[-90px] lg:mt-[-115px] relative z-20 w-full">
+      <div className=" w-screen h-full absolute flex flex-col lg:w-full  z-20">
         <Image
           src="/images/gradient_blue.png"
           width={1200}
@@ -36,9 +38,11 @@ const Drawing = () => {
             className="lg:mt-[-10px] ml-2 lg:hidden sm:block mr-5"
           />
         </div>
-        <div className="flex flex-col justify-between items-center w-full h-[791px] bg-black rounded-xl mt-[30px] lg:mt-[60px] z-10"></div>
-        <div className="flex flex-col sm:flex-row  z-20 mt-5 lg:mt-10 ">
-          <p className="w-full  sm:max-w-none sm:w-[700px]  font-geo sm:text-[14px] lg:text-[16px] font-normal text-custom-blue text-center lg:text-left">
+        <div className="flex items-center w-full xl:w-[1396px] mt-[30px] lg:mt-[60px] z-20 ">
+          <VideoCard url={videos[3]} />
+        </div>
+        <div className="flex flex-col xl:flex-row  z-20 mt-5 lg:mt-10 ">
+          <p className="w-full  sm:max-w-none sm:w-[700px]  font-geo sm:text-[14px] lg:text-[16px] font-normal text-white text-center lg:text-left">
             WindSketch simplifies the process of drafting and sharing plans. Our
             platform offers intuitive tools that allow users to easily customize
             pre-designed templates to match their specific needs. Creating
@@ -48,7 +52,7 @@ const Drawing = () => {
             collaboration and keeps all parties informed, without the complexity
             often associated with plan development and distribution.
           </p>
-          <div className="flex flex-col xl:flex-row justify-evenly sm:ml-[100px] xl:gap-x-11 items-center gap-y-3 mt-5 lg:mt-0">
+          <div className="flex flex-col xl:flex-row justify-evenly xl:ml-[100px] xl:gap-x-11 items-center gap-y-3 mt-5 lg:mt-0">
             <NowButton
               type="button"
               title="Start Now"
@@ -85,12 +89,14 @@ const Drawing = () => {
             height={60}
             className="lg:mt-[-10px] ml-2 lg:hidden sm:block mr-5"
           />
-          <p className="lg:text-[70px] text-[30px] font-geo font-bold  text-black tracking-tight xl:ml-[550px]  text-right ">
+          <p className="lg:text-[70px] text-[30px] font-geo font-bold  text-white tracking-tight xl:ml-[550px]  text-right ">
             EASY PLAN DRAWING <br /> AND SHARING
           </p>
         </div>
-        <div className="flex flex-col justify-between items-center w-full xl:w-[1396px] h-[791px] bg-black rounded-xl mt-[30px] lg:mt-[60px] z-10"></div>
-        <div className="flex flex-col sm:flex-row  z-20 mt-5 lg:mt-10 ">
+        <div className="flex items-center w-full xl:w-[1396px] mt-[30px] lg:mt-[60px] z-20 ">
+          <VideoCard url={videos[4]} />
+        </div>
+        <div className="flex flex-col xl:flex-row  z-20 mt-5 lg:mt-10 ">
           <p className="w-full  sm:max-w-none sm:w-[700px]  font-geo sm:text-[14px] lg:text-[16px] font-normal text-white text-center lg:text-left">
             WindSketch simplifies the process of drafting and sharing plans. Our
             platform offers intuitive tools that allow users to easily customize
@@ -113,7 +119,7 @@ const Drawing = () => {
               type="button"
               title="Book A Demo"
               icon="/icons/arrow.svg"
-              variant="btn_golden"
+              variant="btn_golden2"
               color="white"
               w_4={263}
               h_4={62}

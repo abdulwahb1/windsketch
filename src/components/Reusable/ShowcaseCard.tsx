@@ -10,28 +10,25 @@ type ShowcaseCardProps = {
 
 const ShowcaseCard = ({ title, icon, w_1, h_1 }: ShowcaseCardProps) => {
   return (
-    <div className="flex flex-col justify-start items-center w-[120px] h-[130px] lg:w-[150px] lg:h-[200px] xl:w-[230px] xl:h-[230px] bg-[#CCD5FB] lg:ml-5  mt-5">
+    <div className="flex flex-col justify-start items-center w-[100px] h-[110px] xs:w-[120px] xs:h-[130px] lg:w-[130px] lg:h-[120px] xl:w-[230px] xl:h-[230px] bg-[#CCD5FB] m-auto mt-5 lg:ml-5 rounded-xl overflow-hidden">
       <div
-        className="flex flex-col items-center justify-center w-full h-full"
+        className="flex flex-col items-center justify-center w-full h-full rounded-xl xs:rounded-none scale-110 xs:scale-100	"
         style={{ background: "var(--gradient-slate)" }}
       >
-        <div className="lg:scale-80">
-          <div className=" flex-col justify-center items-center w-full h-1/2 lg:flex hidden">
+        <div className="">
+          <div className=" flex-col justify-center items-center w-full h-1/2 xl:flex hidden xl:mt-6">
             {icon !== "" && (
               <Image src={icon} width={w_1} height={h_1} alt="grids" />
             )}
           </div>
-          <div
-            className="flex-col justify-center items-center w-full h-1/2 lg:hidden flex"
-            style={{ width: "auto", height: "auto" }}
-          >
+          <div className="flex-col justify-center items-center w-full h-1/2 xl:hidden flex lg:mt-5 ">
             {icon !== "" && (
               <Image
                 src={icon}
                 width={40}
                 height={40}
                 alt="grids"
-                style={{ width: "auto", height: "auto" }}
+                className=" "
               />
             )}
           </div>

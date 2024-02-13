@@ -2,12 +2,14 @@ import React from "react";
 import Image from "next/image";
 import NowButton from "../Reusable/NowButton";
 import DemoButton from "../Reusable/DemoButton";
+import VideoCard from "../Reusable/VideoCard";
+import { videos } from "@/constants/videos";
 
 const Book = () => {
   return (
     <section className=" flex flex-col justify-center items-center mt-[100px] lg:mt-0 relative z-10 w-full ">
       <div
-        className="w-screen lg:w-full absolute h-[1300px] flex-col justify-start items-center mt-[400px] flex z-10"
+        className="w-screen lg:w-full absolute h-full flex-col justify-start items-center  flex z-10"
         style={{ background: "var(--gradient-dark_orange)" }}
       ></div>
       {/* 1st feature */}
@@ -31,8 +33,10 @@ const Book = () => {
             className="lg:mt-[-10px] mt-[-70px] lg:hidden sm:block mr-5"
           />
         </div>
-        <div className="flex flex-col justify-between items-center w-full xl:w-[1396px] h-[791px] bg-black rounded-xl mt-[30px] lg:mt-[60px] z-20 "></div>
-        <div className="flex flex-col sm:flex-row  z-20 mt-5 lg:mt-10 ">
+        <div className="flex items-center w-full xl:w-[1396px] mt-[30px] lg:mt-[60px] z-20 ">
+          <VideoCard url={videos[2]} />
+        </div>
+        <div className="flex flex-col xl:flex-row  z-20 mt-5 lg:mt-10 ">
           <p className="w-full  sm:max-w-none sm:w-[700px]  font-geo sm:text-[14px] lg:text-[16px] font-normal text-custom-blue text-center lg:text-left">
             WindSketch simplifies the process of drafting and sharing plans. Our
             platform offers intuitive tools that allow users to easily customize
@@ -47,7 +51,7 @@ const Book = () => {
             <NowButton
               type="button"
               title="Start Now"
-              variant="btn_transparent_outline_hover_blue"
+              variant="btn_transparent"
               w_4={263}
               h_4={62}
             />
